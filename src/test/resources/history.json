@@ -1,0 +1,2888 @@
+[
+  [
+    {
+      "entity_id": "sensor.amazfit_battery",
+      "state": "28",
+      "attributes": {
+        "device_class": "battery"
+      },
+      "last_changed": "2022-10-21T00:00:00+00:00",
+      "last_updated": "2022-10-21T00:00:00+00:00"
+    },
+    {
+      "entity_id": "sensor.amazfit_battery",
+      "state": "26",
+      "attributes": {
+        "device_class": "battery"
+      },
+      "last_changed": "2022-10-21T01:09:59.624110+00:00",
+      "last_updated": "2022-10-21T01:09:59.624110+00:00"
+    }
+  ],
+  [
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-67",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:00:00+00:00",
+      "last_updated": "2022-10-21T00:00:00+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-68",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:00:08.312915+00:00",
+      "last_updated": "2022-10-21T00:00:08.312915+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-67",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:00:38.299792+00:00",
+      "last_updated": "2022-10-21T00:00:38.299792+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-68",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:04:08.220055+00:00",
+      "last_updated": "2022-10-21T00:04:08.220055+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-67",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:04:38.214179+00:00",
+      "last_updated": "2022-10-21T00:04:38.214179+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-68",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:05:08.304435+00:00",
+      "last_updated": "2022-10-21T00:05:08.304435+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-69",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:06:38.302147+00:00",
+      "last_updated": "2022-10-21T00:06:38.302147+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-68",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:10:08.303806+00:00",
+      "last_updated": "2022-10-21T00:10:08.303806+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-67",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:12:08.305541+00:00",
+      "last_updated": "2022-10-21T00:12:08.305541+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-68",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:12:38.302726+00:00",
+      "last_updated": "2022-10-21T00:12:38.302726+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-67",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:13:08.305975+00:00",
+      "last_updated": "2022-10-21T00:13:08.305975+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-68",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:13:38.512016+00:00",
+      "last_updated": "2022-10-21T00:13:38.512016+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-69",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:14:08.297401+00:00",
+      "last_updated": "2022-10-21T00:14:08.297401+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-68",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:15:08.301728+00:00",
+      "last_updated": "2022-10-21T00:15:08.301728+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-69",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:16:08.313004+00:00",
+      "last_updated": "2022-10-21T00:16:08.313004+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-68",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:18:08.301586+00:00",
+      "last_updated": "2022-10-21T00:18:08.301586+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-69",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:18:38.312984+00:00",
+      "last_updated": "2022-10-21T00:18:38.312984+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-68",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:22:08.314710+00:00",
+      "last_updated": "2022-10-21T00:22:08.314710+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-69",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:22:38.320782+00:00",
+      "last_updated": "2022-10-21T00:22:38.320782+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-68",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:23:08.298736+00:00",
+      "last_updated": "2022-10-21T00:23:08.298736+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-69",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:29:08.298931+00:00",
+      "last_updated": "2022-10-21T00:29:08.298931+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-66",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:29:38.300786+00:00",
+      "last_updated": "2022-10-21T00:29:38.300786+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-67",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:30:08.300021+00:00",
+      "last_updated": "2022-10-21T00:30:08.300021+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-68",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:31:08.312135+00:00",
+      "last_updated": "2022-10-21T00:31:08.312135+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-67",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:34:38.307918+00:00",
+      "last_updated": "2022-10-21T00:34:38.307918+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-68",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:35:08.315302+00:00",
+      "last_updated": "2022-10-21T00:35:08.315302+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-67",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:36:38.309240+00:00",
+      "last_updated": "2022-10-21T00:36:38.309240+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-68",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:37:38.321314+00:00",
+      "last_updated": "2022-10-21T00:37:38.321314+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-67",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:39:38.305689+00:00",
+      "last_updated": "2022-10-21T00:39:38.305689+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-68",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:40:08.308042+00:00",
+      "last_updated": "2022-10-21T00:40:08.308042+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-67",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:40:38.299847+00:00",
+      "last_updated": "2022-10-21T00:40:38.299847+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-68",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:41:08.305891+00:00",
+      "last_updated": "2022-10-21T00:41:08.305891+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-67",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:41:38.309665+00:00",
+      "last_updated": "2022-10-21T00:41:38.309665+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-68",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:42:38.428800+00:00",
+      "last_updated": "2022-10-21T00:42:38.428800+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-67",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:44:08.313993+00:00",
+      "last_updated": "2022-10-21T00:44:08.313993+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-68",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:44:38.311031+00:00",
+      "last_updated": "2022-10-21T00:44:38.311031+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-69",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:46:08.297843+00:00",
+      "last_updated": "2022-10-21T00:46:08.297843+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-68",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:46:38.301486+00:00",
+      "last_updated": "2022-10-21T00:46:38.301486+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-69",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:47:38.302488+00:00",
+      "last_updated": "2022-10-21T00:47:38.302488+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-68",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:49:38.315402+00:00",
+      "last_updated": "2022-10-21T00:49:38.315402+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-67",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:52:08.298332+00:00",
+      "last_updated": "2022-10-21T00:52:08.298332+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-68",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:56:08.298777+00:00",
+      "last_updated": "2022-10-21T00:56:08.298777+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-67",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:57:38.300815+00:00",
+      "last_updated": "2022-10-21T00:57:38.300815+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-68",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:58:08.309592+00:00",
+      "last_updated": "2022-10-21T00:58:08.309592+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-67",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:58:38.318128+00:00",
+      "last_updated": "2022-10-21T00:58:38.318128+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-68",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:59:08.310336+00:00",
+      "last_updated": "2022-10-21T00:59:08.310336+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-67",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T00:59:38.318309+00:00",
+      "last_updated": "2022-10-21T00:59:38.318309+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-68",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T01:00:08.302396+00:00",
+      "last_updated": "2022-10-21T01:00:08.302396+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-67",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T01:02:08.320243+00:00",
+      "last_updated": "2022-10-21T01:02:08.320243+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-65",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T01:02:38.308385+00:00",
+      "last_updated": "2022-10-21T01:02:38.308385+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-66",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T01:04:08.301778+00:00",
+      "last_updated": "2022-10-21T01:04:08.301778+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-69",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T01:04:38.315203+00:00",
+      "last_updated": "2022-10-21T01:04:38.315203+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-70",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T01:05:08.210971+00:00",
+      "last_updated": "2022-10-21T01:05:08.210971+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-68",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T01:05:38.303994+00:00",
+      "last_updated": "2022-10-21T01:05:38.303994+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-69",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T01:06:08.323359+00:00",
+      "last_updated": "2022-10-21T01:06:08.323359+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-66",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T01:07:08.299781+00:00",
+      "last_updated": "2022-10-21T01:07:08.299781+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-65",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T01:07:38.314371+00:00",
+      "last_updated": "2022-10-21T01:07:38.314371+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-66",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T01:08:38.312409+00:00",
+      "last_updated": "2022-10-21T01:08:38.312409+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-67",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T01:09:08.315234+00:00",
+      "last_updated": "2022-10-21T01:09:08.315234+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-69",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T01:09:38.301429+00:00",
+      "last_updated": "2022-10-21T01:09:38.301429+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-67",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T01:10:08.336347+00:00",
+      "last_updated": "2022-10-21T01:10:08.336347+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-66",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T01:12:38.208723+00:00",
+      "last_updated": "2022-10-21T01:12:38.208723+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-67",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T01:13:08.297626+00:00",
+      "last_updated": "2022-10-21T01:13:08.297626+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-68",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T01:13:38.304602+00:00",
+      "last_updated": "2022-10-21T01:13:38.304602+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-70",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T01:14:08.300011+00:00",
+      "last_updated": "2022-10-21T01:14:08.300011+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-69",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T01:14:38.298683+00:00",
+      "last_updated": "2022-10-21T01:14:38.298683+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-68",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T01:15:08.305824+00:00",
+      "last_updated": "2022-10-21T01:15:08.305824+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-69",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T01:16:08.311769+00:00",
+      "last_updated": "2022-10-21T01:16:08.311769+00:00"
+    },
+    {
+      "entity_id": "sensor.dish_washer_signal_level",
+      "state": "-67",
+      "attributes": {
+        "unit_of_measurement": "dBm",
+        "device_class": "signal_strength",
+        "friendly_name": "Dish Washer signal level"
+      },
+      "last_changed": "2022-10-21T01:17:09.318158+00:00",
+      "last_updated": "2022-10-21T01:17:09.318158+00:00"
+    }
+  ],
+  [
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "1.0",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:00:00+00:00",
+      "last_updated": "2022-10-21T00:00:00+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "37.6",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:00:20.034217+00:00",
+      "last_updated": "2022-10-21T00:00:20.034217+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "6.1",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:00:50.035549+00:00",
+      "last_updated": "2022-10-21T00:00:50.035549+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "34.3",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:01:20.036503+00:00",
+      "last_updated": "2022-10-21T00:01:20.036503+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "0.7",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:01:50.035139+00:00",
+      "last_updated": "2022-10-21T00:01:50.035139+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "6.1",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:02:20.035987+00:00",
+      "last_updated": "2022-10-21T00:02:20.035987+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "2.7",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:02:50.033918+00:00",
+      "last_updated": "2022-10-21T00:02:50.033918+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "15.4",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:03:20.035709+00:00",
+      "last_updated": "2022-10-21T00:03:20.035709+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "28.5",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:03:50.035253+00:00",
+      "last_updated": "2022-10-21T00:03:50.035253+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "8.5",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:04:20.035392+00:00",
+      "last_updated": "2022-10-21T00:04:20.035392+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "0.5",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:04:50.035859+00:00",
+      "last_updated": "2022-10-21T00:04:50.035859+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "10.8",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:05:20.035329+00:00",
+      "last_updated": "2022-10-21T00:05:20.035329+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "6.9",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:05:50.034598+00:00",
+      "last_updated": "2022-10-21T00:05:50.034598+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "15.6",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:06:20.034685+00:00",
+      "last_updated": "2022-10-21T00:06:20.034685+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "0.8",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:06:50.035565+00:00",
+      "last_updated": "2022-10-21T00:06:50.035565+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "8.2",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:07:20.039055+00:00",
+      "last_updated": "2022-10-21T00:07:20.039055+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "0.8",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:07:50.035510+00:00",
+      "last_updated": "2022-10-21T00:07:50.035510+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "6.3",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:08:20.036302+00:00",
+      "last_updated": "2022-10-21T00:08:20.036302+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "1.4",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:08:50.034554+00:00",
+      "last_updated": "2022-10-21T00:08:50.034554+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "1.5",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:09:20.035590+00:00",
+      "last_updated": "2022-10-21T00:09:20.035590+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "5.8",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:09:50.035479+00:00",
+      "last_updated": "2022-10-21T00:09:50.035479+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "3.0",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:10:20.035285+00:00",
+      "last_updated": "2022-10-21T00:10:20.035285+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "14.1",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:10:50.035719+00:00",
+      "last_updated": "2022-10-21T00:10:50.035719+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "1.1",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:11:20.037274+00:00",
+      "last_updated": "2022-10-21T00:11:20.037274+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "5.5",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:11:50.038469+00:00",
+      "last_updated": "2022-10-21T00:11:50.038469+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "0.5",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:12:20.035705+00:00",
+      "last_updated": "2022-10-21T00:12:20.035705+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "16.8",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:12:50.035155+00:00",
+      "last_updated": "2022-10-21T00:12:50.035155+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "2.5",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:13:20.035830+00:00",
+      "last_updated": "2022-10-21T00:13:20.035830+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "19.5",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:13:50.036304+00:00",
+      "last_updated": "2022-10-21T00:13:50.036304+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "1.2",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:14:20.037103+00:00",
+      "last_updated": "2022-10-21T00:14:20.037103+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "17.8",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:14:50.035462+00:00",
+      "last_updated": "2022-10-21T00:14:50.035462+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "3.1",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:15:20.036051+00:00",
+      "last_updated": "2022-10-21T00:15:20.036051+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "35.0",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:15:50.035398+00:00",
+      "last_updated": "2022-10-21T00:15:50.035398+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "2.0",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:16:20.036222+00:00",
+      "last_updated": "2022-10-21T00:16:20.036222+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "33.8",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:16:50.035264+00:00",
+      "last_updated": "2022-10-21T00:16:50.035264+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "28.2",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:17:20.040962+00:00",
+      "last_updated": "2022-10-21T00:17:20.040962+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "317.3",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:17:50.036118+00:00",
+      "last_updated": "2022-10-21T00:17:50.036118+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "72.7",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:18:20.035867+00:00",
+      "last_updated": "2022-10-21T00:18:20.035867+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "7.1",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:18:50.034272+00:00",
+      "last_updated": "2022-10-21T00:18:50.034272+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "183.9",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:19:20.037537+00:00",
+      "last_updated": "2022-10-21T00:19:20.037537+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "201.5",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:19:50.036926+00:00",
+      "last_updated": "2022-10-21T00:19:50.036926+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "32.1",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:20:20.032996+00:00",
+      "last_updated": "2022-10-21T00:20:20.032996+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "21.3",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:20:50.032191+00:00",
+      "last_updated": "2022-10-21T00:20:50.032191+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "40.7",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:21:20.032346+00:00",
+      "last_updated": "2022-10-21T00:21:20.032346+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "16.4",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:21:50.034979+00:00",
+      "last_updated": "2022-10-21T00:21:50.034979+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "1.4",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:22:20.033191+00:00",
+      "last_updated": "2022-10-21T00:22:20.033191+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "10.4",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:22:50.032525+00:00",
+      "last_updated": "2022-10-21T00:22:50.032525+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "6.6",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:23:20.032092+00:00",
+      "last_updated": "2022-10-21T00:23:20.032092+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "17.3",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:23:50.031747+00:00",
+      "last_updated": "2022-10-21T00:23:50.031747+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "8.2",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:24:20.033853+00:00",
+      "last_updated": "2022-10-21T00:24:20.033853+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "5.1",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:24:50.031775+00:00",
+      "last_updated": "2022-10-21T00:24:50.031775+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "14.4",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:25:20.033401+00:00",
+      "last_updated": "2022-10-21T00:25:20.033401+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "6.6",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:25:50.031321+00:00",
+      "last_updated": "2022-10-21T00:25:50.031321+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "14.0",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:26:20.030748+00:00",
+      "last_updated": "2022-10-21T00:26:20.030748+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "0.7",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:26:50.033660+00:00",
+      "last_updated": "2022-10-21T00:26:50.033660+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "5.6",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:27:20.032439+00:00",
+      "last_updated": "2022-10-21T00:27:20.032439+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "1.1",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:27:50.031543+00:00",
+      "last_updated": "2022-10-21T00:27:50.031543+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "9.2",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:28:20.031888+00:00",
+      "last_updated": "2022-10-21T00:28:20.031888+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "0.4",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:28:50.030363+00:00",
+      "last_updated": "2022-10-21T00:28:50.030363+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "16.6",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:29:20.031553+00:00",
+      "last_updated": "2022-10-21T00:29:20.031553+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "0.8",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:29:50.030934+00:00",
+      "last_updated": "2022-10-21T00:29:50.030934+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "16.0",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:30:20.031501+00:00",
+      "last_updated": "2022-10-21T00:30:20.031501+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "14.0",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:30:50.031143+00:00",
+      "last_updated": "2022-10-21T00:30:50.031143+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "35.0",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:31:20.031789+00:00",
+      "last_updated": "2022-10-21T00:31:20.031789+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "0.5",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:31:50.031007+00:00",
+      "last_updated": "2022-10-21T00:31:50.031007+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "11.4",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:32:20.031626+00:00",
+      "last_updated": "2022-10-21T00:32:20.031626+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "0.7",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:32:50.029949+00:00",
+      "last_updated": "2022-10-21T00:32:50.029949+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "12.8",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:33:20.033990+00:00",
+      "last_updated": "2022-10-21T00:33:20.033990+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "0.4",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:33:50.035085+00:00",
+      "last_updated": "2022-10-21T00:33:50.035085+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "8.7",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:34:20.032306+00:00",
+      "last_updated": "2022-10-21T00:34:20.032306+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "0.8",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:34:50.032377+00:00",
+      "last_updated": "2022-10-21T00:34:50.032377+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "11.2",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:35:20.032185+00:00",
+      "last_updated": "2022-10-21T00:35:20.032185+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "6.2",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:35:50.031819+00:00",
+      "last_updated": "2022-10-21T00:35:50.031819+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "14.4",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:36:20.034201+00:00",
+      "last_updated": "2022-10-21T00:36:20.034201+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "1.1",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:36:50.033467+00:00",
+      "last_updated": "2022-10-21T00:36:50.033467+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "10.9",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:37:20.032107+00:00",
+      "last_updated": "2022-10-21T00:37:20.032107+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "0.9",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:37:50.031921+00:00",
+      "last_updated": "2022-10-21T00:37:50.031921+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "4.0",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:38:20.033573+00:00",
+      "last_updated": "2022-10-21T00:38:20.033573+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "0.9",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:38:50.032225+00:00",
+      "last_updated": "2022-10-21T00:38:50.032225+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "19.2",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:39:20.033331+00:00",
+      "last_updated": "2022-10-21T00:39:20.033331+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "4.9",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:39:50.032175+00:00",
+      "last_updated": "2022-10-21T00:39:50.032175+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "25.0",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:40:20.031656+00:00",
+      "last_updated": "2022-10-21T00:40:20.031656+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "7.7",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:40:50.031334+00:00",
+      "last_updated": "2022-10-21T00:40:50.031334+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "29.4",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:41:20.034363+00:00",
+      "last_updated": "2022-10-21T00:41:20.034363+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "0.3",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:41:50.034980+00:00",
+      "last_updated": "2022-10-21T00:41:50.034980+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "7.4",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:42:20.031715+00:00",
+      "last_updated": "2022-10-21T00:42:20.031715+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "12.7",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:42:50.030992+00:00",
+      "last_updated": "2022-10-21T00:42:50.030992+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "0.4",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:43:20.032742+00:00",
+      "last_updated": "2022-10-21T00:43:20.032742+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "14.1",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:43:50.032580+00:00",
+      "last_updated": "2022-10-21T00:43:50.032580+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "0.8",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:44:20.032350+00:00",
+      "last_updated": "2022-10-21T00:44:20.032350+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "29.3",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:44:50.032057+00:00",
+      "last_updated": "2022-10-21T00:44:50.032057+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "3.0",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:45:20.031244+00:00",
+      "last_updated": "2022-10-21T00:45:20.031244+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "19.2",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:45:50.031327+00:00",
+      "last_updated": "2022-10-21T00:45:50.031327+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "0.8",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:46:20.032231+00:00",
+      "last_updated": "2022-10-21T00:46:20.032231+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "19.0",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:46:50.030562+00:00",
+      "last_updated": "2022-10-21T00:46:50.030562+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "6.9",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:47:20.033107+00:00",
+      "last_updated": "2022-10-21T00:47:20.033107+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "92.7",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:47:50.031671+00:00",
+      "last_updated": "2022-10-21T00:47:50.031671+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "1.2",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:48:20.031824+00:00",
+      "last_updated": "2022-10-21T00:48:20.031824+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "5.6",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:48:50.030718+00:00",
+      "last_updated": "2022-10-21T00:48:50.030718+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "6.8",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:49:20.030563+00:00",
+      "last_updated": "2022-10-21T00:49:20.030563+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "16.2",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:49:50.032877+00:00",
+      "last_updated": "2022-10-21T00:49:50.032877+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "5.2",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:50:20.030574+00:00",
+      "last_updated": "2022-10-21T00:50:20.030574+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "18.1",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:50:50.030162+00:00",
+      "last_updated": "2022-10-21T00:50:50.030162+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "1.3",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:51:20.031098+00:00",
+      "last_updated": "2022-10-21T00:51:20.031098+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "11.7",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:51:50.031700+00:00",
+      "last_updated": "2022-10-21T00:51:50.031700+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "69.9",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:52:20.031915+00:00",
+      "last_updated": "2022-10-21T00:52:20.031915+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "319.4",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:52:50.033594+00:00",
+      "last_updated": "2022-10-21T00:52:50.033594+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "794.0",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:53:20.031466+00:00",
+      "last_updated": "2022-10-21T00:53:20.031466+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "248.0",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:53:50.032371+00:00",
+      "last_updated": "2022-10-21T00:53:50.032371+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "28.6",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:54:20.033252+00:00",
+      "last_updated": "2022-10-21T00:54:20.033252+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "216.3",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:54:50.033588+00:00",
+      "last_updated": "2022-10-21T00:54:50.033588+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "288.7",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:55:20.031279+00:00",
+      "last_updated": "2022-10-21T00:55:20.031279+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "642.5",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:55:50.031068+00:00",
+      "last_updated": "2022-10-21T00:55:50.031068+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "409.5",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:56:20.031785+00:00",
+      "last_updated": "2022-10-21T00:56:20.031785+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "471.4",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:56:50.032795+00:00",
+      "last_updated": "2022-10-21T00:56:50.032795+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "452.6",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:57:20.032369+00:00",
+      "last_updated": "2022-10-21T00:57:20.032369+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "300.0",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:57:50.032165+00:00",
+      "last_updated": "2022-10-21T00:57:50.032165+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "708.4",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:58:20.032139+00:00",
+      "last_updated": "2022-10-21T00:58:20.032139+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "415.7",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:58:50.030970+00:00",
+      "last_updated": "2022-10-21T00:58:50.030970+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "unknown",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:59:20.031119+00:00",
+      "last_updated": "2022-10-21T00:59:20.031119+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "567.5",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T00:59:50.031797+00:00",
+      "last_updated": "2022-10-21T00:59:50.031797+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "432.3",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:00:20.031881+00:00",
+      "last_updated": "2022-10-21T01:00:20.031881+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "615.8",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:00:50.034015+00:00",
+      "last_updated": "2022-10-21T01:00:50.034015+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "860.2",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:01:20.032189+00:00",
+      "last_updated": "2022-10-21T01:01:20.032189+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "324.4",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:01:50.032299+00:00",
+      "last_updated": "2022-10-21T01:01:50.032299+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "599.4",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:02:20.031939+00:00",
+      "last_updated": "2022-10-21T01:02:20.031939+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "266.0",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:02:50.031375+00:00",
+      "last_updated": "2022-10-21T01:02:50.031375+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "1977.7",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:03:20.031495+00:00",
+      "last_updated": "2022-10-21T01:03:20.031495+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "400.4",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:03:50.031934+00:00",
+      "last_updated": "2022-10-21T01:03:50.031934+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "507.9",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:04:20.032076+00:00",
+      "last_updated": "2022-10-21T01:04:20.032076+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "352.7",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:04:50.032706+00:00",
+      "last_updated": "2022-10-21T01:04:50.032706+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "333.8",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:05:20.032987+00:00",
+      "last_updated": "2022-10-21T01:05:20.032987+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "446.8",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:05:50.033117+00:00",
+      "last_updated": "2022-10-21T01:05:50.033117+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "391.1",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:06:20.033614+00:00",
+      "last_updated": "2022-10-21T01:06:20.033614+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "347.2",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:06:50.031563+00:00",
+      "last_updated": "2022-10-21T01:06:50.031563+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "835.9",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:07:20.030265+00:00",
+      "last_updated": "2022-10-21T01:07:20.030265+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "968.9",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:07:50.033257+00:00",
+      "last_updated": "2022-10-21T01:07:50.033257+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "262.7",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:08:20.032463+00:00",
+      "last_updated": "2022-10-21T01:08:20.032463+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "449.0",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:08:50.031523+00:00",
+      "last_updated": "2022-10-21T01:08:50.031523+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "757.4",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:09:20.033958+00:00",
+      "last_updated": "2022-10-21T01:09:20.033958+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "447.7",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:09:50.031362+00:00",
+      "last_updated": "2022-10-21T01:09:50.031362+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "101.8",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:10:20.032101+00:00",
+      "last_updated": "2022-10-21T01:10:20.032101+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "935.9",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:10:50.032973+00:00",
+      "last_updated": "2022-10-21T01:10:50.032973+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "517.6",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:11:20.032862+00:00",
+      "last_updated": "2022-10-21T01:11:20.032862+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "703.3",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:11:50.033563+00:00",
+      "last_updated": "2022-10-21T01:11:50.033563+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "122.4",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:12:20.034188+00:00",
+      "last_updated": "2022-10-21T01:12:20.034188+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "394.8",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:12:50.033626+00:00",
+      "last_updated": "2022-10-21T01:12:50.033626+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "663.8",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:13:20.031471+00:00",
+      "last_updated": "2022-10-21T01:13:20.031471+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "217.1",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:13:50.032779+00:00",
+      "last_updated": "2022-10-21T01:13:50.032779+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "228.4",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:14:20.033083+00:00",
+      "last_updated": "2022-10-21T01:14:20.033083+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "163.2",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:14:50.032646+00:00",
+      "last_updated": "2022-10-21T01:14:50.032646+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "182.0",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:15:20.033026+00:00",
+      "last_updated": "2022-10-21T01:15:20.033026+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "106.4",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:15:50.032921+00:00",
+      "last_updated": "2022-10-21T01:15:50.032921+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "971.3",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:16:20.033295+00:00",
+      "last_updated": "2022-10-21T01:16:20.033295+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "738.1",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:16:50.032949+00:00",
+      "last_updated": "2022-10-21T01:16:50.032949+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_received",
+      "state": "799.2",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s received"
+      },
+      "last_changed": "2022-10-21T01:17:20.032926+00:00",
+      "last_updated": "2022-10-21T01:17:20.032926+00:00"
+    }
+  ],
+  [
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "0.9",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:00:00+00:00",
+      "last_updated": "2022-10-21T00:00:00+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "1.8",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:00:20.034284+00:00",
+      "last_updated": "2022-10-21T00:00:20.034284+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "0.8",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:00:50.035643+00:00",
+      "last_updated": "2022-10-21T00:00:50.035643+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "1.9",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:01:20.036595+00:00",
+      "last_updated": "2022-10-21T00:01:20.036595+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "2.1",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:01:50.035201+00:00",
+      "last_updated": "2022-10-21T00:01:50.035201+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "0.7",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:02:20.036061+00:00",
+      "last_updated": "2022-10-21T00:02:20.036061+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "1.4",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:02:50.033991+00:00",
+      "last_updated": "2022-10-21T00:02:50.033991+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "0.6",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:03:20.035801+00:00",
+      "last_updated": "2022-10-21T00:03:20.035801+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "6.6",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:03:50.035315+00:00",
+      "last_updated": "2022-10-21T00:03:50.035315+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "1.8",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:04:20.035474+00:00",
+      "last_updated": "2022-10-21T00:04:20.035474+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "0.5",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:04:50.035952+00:00",
+      "last_updated": "2022-10-21T00:04:50.035952+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "1.0",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:05:20.035409+00:00",
+      "last_updated": "2022-10-21T00:05:20.035409+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "0.7",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:06:20.034748+00:00",
+      "last_updated": "2022-10-21T00:06:20.034748+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "2.7",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:06:50.035657+00:00",
+      "last_updated": "2022-10-21T00:06:50.035657+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "1.0",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:07:20.039145+00:00",
+      "last_updated": "2022-10-21T00:07:20.039145+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "0.9",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:07:50.035602+00:00",
+      "last_updated": "2022-10-21T00:07:50.035602+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "0.8",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:08:20.036395+00:00",
+      "last_updated": "2022-10-21T00:08:20.036395+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "0.7",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:08:50.034655+00:00",
+      "last_updated": "2022-10-21T00:08:50.034655+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "1.2",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:09:20.035664+00:00",
+      "last_updated": "2022-10-21T00:09:20.035664+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "0.9",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:09:50.035574+00:00",
+      "last_updated": "2022-10-21T00:09:50.035574+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "0.7",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:10:20.035361+00:00",
+      "last_updated": "2022-10-21T00:10:20.035361+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "1.1",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:10:50.035783+00:00",
+      "last_updated": "2022-10-21T00:10:50.035783+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "0.8",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:11:20.037364+00:00",
+      "last_updated": "2022-10-21T00:11:20.037364+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "3.2",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:11:50.038560+00:00",
+      "last_updated": "2022-10-21T00:11:50.038560+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "0.3",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:12:20.035794+00:00",
+      "last_updated": "2022-10-21T00:12:20.035794+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "1.7",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:12:50.035247+00:00",
+      "last_updated": "2022-10-21T00:12:50.035247+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "0.4",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:13:20.035914+00:00",
+      "last_updated": "2022-10-21T00:13:20.035914+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "1.0",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:13:50.036378+00:00",
+      "last_updated": "2022-10-21T00:13:50.036378+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "0.6",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:14:20.037194+00:00",
+      "last_updated": "2022-10-21T00:14:20.037194+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "2.1",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:14:50.035555+00:00",
+      "last_updated": "2022-10-21T00:14:50.035555+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "0.8",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:15:20.036146+00:00",
+      "last_updated": "2022-10-21T00:15:20.036146+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "3.0",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:15:50.035490+00:00",
+      "last_updated": "2022-10-21T00:15:50.035490+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "0.5",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:16:20.036311+00:00",
+      "last_updated": "2022-10-21T00:16:20.036311+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "6.3",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:16:50.035356+00:00",
+      "last_updated": "2022-10-21T00:16:50.035356+00:00"
+    },
+    {
+      "entity_id": "sensor.upnp_igd_kib_s_sent",
+      "state": "6.9",
+      "attributes": {
+        "unit_of_measurement": "KiB/s",
+        "icon": "mdi:server-network",
+        "friendly_name": "UPNP IGD KiB/s sent"
+      },
+      "last_changed": "2022-10-21T00:17:20.041067+00:00",
+      "last_updated": "2022-10-21T00:17:20.041067+00:00"
+    }
+  ]
+]

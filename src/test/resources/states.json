@@ -1,0 +1,774 @@
+[
+  {
+    "entity_id": "person.sidney_shawn",
+    "state": "unknown",
+    "attributes": {
+      "editable": false,
+      "id": "sidney_shawn",
+      "user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+      "friendly_name": "Sidney Shawn"
+    },
+    "last_changed": "2022-10-20T14:20:02.274959+00:00",
+    "last_updated": "2022-10-20T14:20:05.210426+00:00",
+    "context": {
+      "id": "01GFTW7YPTKD0DXMXH6WVZ1X31",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "zone.home",
+    "state": "0",
+    "attributes": {
+      "latitude": 41.3742845,
+      "longitude": 2.1735013,
+      "radius": 100,
+      "passive": false,
+      "persons": [],
+      "editable": true,
+      "icon": "mdi:home",
+      "friendly_name": "Domotich"
+    },
+    "last_changed": "2022-10-20T14:20:02.533221+00:00",
+    "last_updated": "2022-10-20T14:20:02.533221+00:00",
+    "context": {
+      "id": "01GFTW7W35Q7EFDGX1EP98FQWD",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sun.sun",
+    "state": "below_horizon",
+    "attributes": {
+      "next_dawn": "2022-10-21T05:41:16.868181+00:00",
+      "next_dusk": "2022-10-21T17:29:54.417513+00:00",
+      "next_midnight": "2022-10-20T23:35:55+00:00",
+      "next_noon": "2022-10-21T11:35:59+00:00",
+      "next_rising": "2022-10-21T06:09:56.145513+00:00",
+      "next_setting": "2022-10-21T17:01:17.395851+00:00",
+      "elevation": -58.88,
+      "azimuth": 350.09,
+      "rising": false,
+      "friendly_name": "Sun"
+    },
+    "last_changed": "2022-10-20T17:06:45.781287+00:00",
+    "last_updated": "2022-10-20T23:15:14.630094+00:00",
+    "context": {
+      "id": "01GFVTVVJ6649W67FYBKY0JVDP",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "camera.test",
+    "state": "idle",
+    "attributes": {
+      "access_token": "a3a1b4cb4dbd306af224828779b3f656ae3584e35fc395f4b67390a5459e83ba",
+      "entity_picture": "/api/camera_proxy/camera.test?token=a3a1b4cb4dbd306af224828779b3f656ae3584e35fc395f4b67390a5459e83ba",
+      "friendly_name": "Test",
+      "supported_features": 0
+    },
+    "last_changed": "2022-10-20T14:20:03.356126+00:00",
+    "last_updated": "2022-10-20T23:15:03.310081+00:00",
+    "context": {
+      "id": "01GFVTVGGE1S2MMXBFDBQXG9Y7",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "button.street_door",
+    "state": "2022-10-20T14:28:02.733549+00:00",
+    "attributes": {
+      "friendly_name": "Street Door"
+    },
+    "last_changed": "2022-10-20T14:28:02.733608+00:00",
+    "last_updated": "2022-10-20T14:28:02.733608+00:00",
+    "context": {
+      "id": "01GFTWPH1DCZYTWA0STW4BQ3M2",
+      "parent_id": null,
+      "user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+    }
+  },
+  {
+    "entity_id": "button.home_door",
+    "state": "2022-10-20T20:14:44.428453+00:00",
+    "attributes": {
+      "friendly_name": "Home Door"
+    },
+    "last_changed": "2022-10-20T20:14:44.428499+00:00",
+    "last_updated": "2022-10-20T20:14:44.428499+00:00",
+    "context": {
+      "id": "01GFVGHB6CZPF8G755M5CA7Z0K",
+      "parent_id": null,
+      "user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+    }
+  },
+  {
+    "entity_id": "camera.mqtt_camera",
+    "state": "idle",
+    "attributes": {
+      "access_token": "b165e27c5602cdba7add8817dcccded8adc6635ae5acfbad6708d00455531ac7",
+      "entity_picture": "/api/camera_proxy/camera.mqtt_camera?token=b165e27c5602cdba7add8817dcccded8adc6635ae5acfbad6708d00455531ac7",
+      "friendly_name": "MQTT Camera",
+      "supported_features": 0
+    },
+    "last_changed": "2022-10-20T14:20:03.511273+00:00",
+    "last_updated": "2022-10-20T23:15:03.310218+00:00",
+    "context": {
+      "id": "01GFVTVGGEZ6JKG8BK8B3AHADJ",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "light.bedroom_light",
+    "state": "on",
+    "attributes": {
+      "supported_color_modes": [
+        "onoff"
+      ],
+      "color_mode": "onoff",
+      "friendly_name": "Bedroom Light",
+      "supported_features": 0
+    },
+    "last_changed": "2022-10-20T22:57:22.289550+00:00",
+    "last_updated": "2022-10-20T22:57:22.289550+00:00",
+    "context": {
+      "id": "01GFVSV494M4KMBASNK3530Q6W",
+      "parent_id": null,
+      "user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+    }
+  },
+  {
+    "entity_id": "sensor.m2012k11ag_battery_level",
+    "state": "23",
+    "attributes": {
+      "unit_of_measurement": "%",
+      "device_class": "battery",
+      "icon": "mdi:battery-20",
+      "friendly_name": "M2012K11AG Battery Level"
+    },
+    "last_changed": "2022-10-20T20:47:54.901273+00:00",
+    "last_updated": "2022-10-20T20:47:54.901273+00:00",
+    "context": {
+      "id": "01GFVJE30NQMS7VWJ3A63MQMN4",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.m2012k11ag_battery_state",
+    "state": "discharging",
+    "attributes": {
+      "icon": "mdi:battery-minus",
+      "friendly_name": "M2012K11AG Battery State"
+    },
+    "last_changed": "2022-10-20T14:20:03.579739+00:00",
+    "last_updated": "2022-10-20T14:20:03.579739+00:00",
+    "context": {
+      "id": "01GFTW7X3VWY0549GGK23A5FDW",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.m2012k11ag_charger_type",
+    "state": "none",
+    "attributes": {
+      "icon": "mdi:battery",
+      "friendly_name": "M2012K11AG Charger Type"
+    },
+    "last_changed": "2022-10-20T14:20:03.579791+00:00",
+    "last_updated": "2022-10-20T14:20:03.579791+00:00",
+    "context": {
+      "id": "01GFTW7X3VX39HMRATVWCTCGRY",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.m2012k11ag_battery_health",
+    "state": "good",
+    "attributes": {
+      "icon": "mdi:battery-heart-variant",
+      "friendly_name": "M2012K11AG Battery Health"
+    },
+    "last_changed": "2022-10-20T14:20:03.579836+00:00",
+    "last_updated": "2022-10-20T14:20:03.579836+00:00",
+    "context": {
+      "id": "01GFTW7X3V8K996JVZ3EKVENGC",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.m2012k11ag_battery_temperature",
+    "state": "27.0",
+    "attributes": {
+      "unit_of_measurement": "°C",
+      "device_class": "temperature",
+      "icon": "mdi:battery",
+      "friendly_name": "M2012K11AG Battery Temperature"
+    },
+    "last_changed": "2022-10-20T21:07:34.964192+00:00",
+    "last_updated": "2022-10-20T21:07:34.964192+00:00",
+    "context": {
+      "id": "01GFVKJ3DM2PMX8089D63CV64J",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.m2012k11ag_battery_power",
+    "state": "0.35",
+    "attributes": {
+      "state_class": "measurement",
+      "current": 0.094238,
+      "voltage": 3.738,
+      "unit_of_measurement": "W",
+      "device_class": "power",
+      "icon": "mdi:battery-plus",
+      "friendly_name": "M2012K11AG Battery Power"
+    },
+    "last_changed": "2022-10-20T21:07:34.964301+00:00",
+    "last_updated": "2022-10-20T21:07:34.964301+00:00",
+    "context": {
+      "id": "01GFVKJ3DMH8TGCYT09VA91371",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.m2012k11ag_is_charging",
+    "state": "off",
+    "attributes": {
+      "device_class": "plug",
+      "icon": "mdi:power-plug-off",
+      "friendly_name": "M2012K11AG Is Charging"
+    },
+    "last_changed": "2022-10-20T14:20:03.579981+00:00",
+    "last_updated": "2022-10-20T14:20:03.579981+00:00",
+    "context": {
+      "id": "01GFTW7X3V8SCQ6TRD68R84X8F",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "device_tracker.m2012k11ag",
+    "state": "unknown",
+    "attributes": {
+      "source_type": "gps",
+      "friendly_name": "M2012K11AG"
+    },
+    "last_changed": "2022-10-20T14:20:03.580041+00:00",
+    "last_updated": "2022-10-20T14:20:03.580041+00:00",
+    "context": {
+      "id": "01GFTW7X3W7MM7Q8G57NDBFJ4Y",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.office_humidity_sensor",
+    "state": "unknown",
+    "attributes": {
+      "device_class": "humidity",
+      "friendly_name": "Office Humidity Sensor"
+    },
+    "last_changed": "2022-10-20T14:20:03.623821+00:00",
+    "last_updated": "2022-10-20T14:20:03.623821+00:00",
+    "context": {
+      "id": "01GFTW7X57F6D2P69316ZD9VZE",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.office_motion_sensor",
+    "state": "unknown",
+    "attributes": {
+      "device_class": "motion",
+      "friendly_name": "Office Motion Sensor"
+    },
+    "last_changed": "2022-10-20T14:20:03.625085+00:00",
+    "last_updated": "2022-10-20T14:20:03.625085+00:00",
+    "context": {
+      "id": "01GFTW7X59AFJ1JQES9FNF7TC0",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "media_player.menjador_tv",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Menjador TV",
+      "supported_features": 152461
+    },
+    "last_changed": "2022-10-20T14:20:03.975858+00:00",
+    "last_updated": "2022-10-20T14:20:03.978559+00:00",
+    "context": {
+      "id": "01GFTW7XGA5Q30JYEKY6HBT47Y",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.upnp_igd_wan_status",
+    "state": "on",
+    "attributes": {
+      "device_class": "connectivity",
+      "friendly_name": "UPNP IGD wan status"
+    },
+    "last_changed": "2022-10-20T14:20:03.952173+00:00",
+    "last_updated": "2022-10-20T14:20:03.952173+00:00",
+    "context": {
+      "id": "01GFTW7XFGH9VB88T68ZHS15SE",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.upnp_igd_external_ip",
+    "state": "79.116.56.7",
+    "attributes": {
+      "icon": "mdi:server-network",
+      "friendly_name": "UPNP IGD External IP"
+    },
+    "last_changed": "2022-10-20T14:20:03.952663+00:00",
+    "last_updated": "2022-10-20T14:20:03.952663+00:00",
+    "context": {
+      "id": "01GFTW7XFG11VT4W1PK52HQ06B",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.upnp_igd_kib_s_received",
+    "state": "17.7",
+    "attributes": {
+      "unit_of_measurement": "KiB/s",
+      "icon": "mdi:server-network",
+      "friendly_name": "UPNP IGD KiB/s received"
+    },
+    "last_changed": "2022-10-20T23:15:50.033208+00:00",
+    "last_updated": "2022-10-20T23:15:50.033208+00:00",
+    "context": {
+      "id": "01GFVTWY4HA72XXVQJVHSFGJF9",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.upnp_igd_kib_s_sent",
+    "state": "1.2",
+    "attributes": {
+      "unit_of_measurement": "KiB/s",
+      "icon": "mdi:server-network",
+      "friendly_name": "UPNP IGD KiB/s sent"
+    },
+    "last_changed": "2022-10-20T23:15:50.033295+00:00",
+    "last_updated": "2022-10-20T23:15:50.033295+00:00",
+    "context": {
+      "id": "01GFVTWY4HZ4RRWFVN4KEQY991",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.hacs",
+    "state": "2",
+    "attributes": {
+      "repositories": [
+        {
+          "name": "basnijholt/lovelace-ios-dark-mode-theme",
+          "display_name": "iOS Dark Mode Theme",
+          "installed_version": "9c012f7",
+          "available_version": "3bbdfc6"
+        },
+        {
+          "name": "petretiandrea/home-assistant-tapo-p100",
+          "display_name": "Tapo Controller",
+          "installed_version": "v1.2.15",
+          "available_version": "v1.2.16"
+        }
+      ],
+      "unit_of_measurement": "pending update(s)",
+      "icon": "hacs:hacs",
+      "friendly_name": "hacs"
+    },
+    "last_changed": "2022-10-20T14:20:08.608879+00:00",
+    "last_updated": "2022-10-20T14:20:08.608879+00:00",
+    "context": {
+      "id": "01GFTW8210JV4T4F1FTGX745H7",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.dish_washer_signal_level",
+    "state": "-67",
+    "attributes": {
+      "unit_of_measurement": "dBm",
+      "device_class": "signal_strength",
+      "friendly_name": "Dish Washer signal level"
+    },
+    "last_changed": "2022-10-20T23:14:08.304251+00:00",
+    "last_updated": "2022-10-20T23:14:08.304251+00:00",
+    "context": {
+      "id": "01GFVTSTSG3G0NY3R79G3YWBNT",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.dish_washer_today_energy",
+    "state": "0.0",
+    "attributes": {
+      "state_class": "total_increasing",
+      "unit_of_measurement": "kWh",
+      "device_class": "energy",
+      "friendly_name": "Dish Washer today energy"
+    },
+    "last_changed": "2022-10-20T14:20:04.734732+00:00",
+    "last_updated": "2022-10-20T14:20:04.734732+00:00",
+    "context": {
+      "id": "01GFTW7Y7YJD5YHJ2TTJVWYRXD",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.dish_washer_month_energy",
+    "state": "0.097",
+    "attributes": {
+      "state_class": "total_increasing",
+      "unit_of_measurement": "kWh",
+      "device_class": "energy",
+      "friendly_name": "Dish Washer month energy"
+    },
+    "last_changed": "2022-10-20T14:20:04.734965+00:00",
+    "last_updated": "2022-10-20T14:20:04.734965+00:00",
+    "context": {
+      "id": "01GFTW7Y7Y9XYVQ2QRD1TBEVJG",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.dish_washer_this_month_energy",
+    "state": "0.097",
+    "attributes": {
+      "state_class": "total_increasing",
+      "unit_of_measurement": "kWh",
+      "device_class": "energy",
+      "friendly_name": "Dish Washer this month energy"
+    },
+    "last_changed": "2022-10-20T14:20:04.735182+00:00",
+    "last_updated": "2022-10-20T14:20:04.735182+00:00",
+    "context": {
+      "id": "01GFTW7Y7ZBN82PZDHG453TY8Z",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.dish_washer_current_energy",
+    "state": "0.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "W",
+      "device_class": "power",
+      "friendly_name": "Dish Washer current energy"
+    },
+    "last_changed": "2022-10-20T14:20:04.735398+00:00",
+    "last_updated": "2022-10-20T14:20:04.735398+00:00",
+    "context": {
+      "id": "01GFTW7Y7ZJSY7PHTHNWH7CE4G",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.dish_washer_overheat",
+    "state": "False",
+    "attributes": {
+      "device_class": "heat",
+      "friendly_name": "Dish Washer overheat"
+    },
+    "last_changed": "2022-10-20T14:20:04.735604+00:00",
+    "last_updated": "2022-10-20T14:20:04.735604+00:00",
+    "context": {
+      "id": "01GFTW7Y7Z1D53X4D98TXXWNTW",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.washing_machine_signal_level",
+    "state": "-57",
+    "attributes": {
+      "unit_of_measurement": "dBm",
+      "device_class": "signal_strength",
+      "friendly_name": "Washing Machine signal level"
+    },
+    "last_changed": "2022-10-20T23:14:17.313889+00:00",
+    "last_updated": "2022-10-20T23:14:17.313889+00:00",
+    "context": {
+      "id": "01GFVTT3K157C5NFPBSFBVEXPR",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.washing_machine_today_energy",
+    "state": "0.0",
+    "attributes": {
+      "state_class": "total_increasing",
+      "unit_of_measurement": "kWh",
+      "device_class": "energy",
+      "friendly_name": "Washing Machine today energy"
+    },
+    "last_changed": "2022-10-20T22:00:16.322983+00:00",
+    "last_updated": "2022-10-20T22:00:16.322983+00:00",
+    "context": {
+      "id": "01GFVPJJP21RBA8NAVH4QC6MZB",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.washing_machine_month_energy",
+    "state": "1.705",
+    "attributes": {
+      "state_class": "total_increasing",
+      "unit_of_measurement": "kWh",
+      "device_class": "energy",
+      "friendly_name": "Washing Machine month energy"
+    },
+    "last_changed": "2022-10-20T19:19:21.228162+00:00",
+    "last_updated": "2022-10-20T19:19:21.228162+00:00",
+    "context": {
+      "id": "01GFVDBXWCGMV9BV0WJEZ8AC9V",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.washing_machine_this_month_energy",
+    "state": "1.705",
+    "attributes": {
+      "state_class": "total_increasing",
+      "unit_of_measurement": "kWh",
+      "device_class": "energy",
+      "friendly_name": "Washing Machine this month energy"
+    },
+    "last_changed": "2022-10-20T19:19:21.228200+00:00",
+    "last_updated": "2022-10-20T19:19:21.228200+00:00",
+    "context": {
+      "id": "01GFVDBXWC912H1D8MZ64M58VD",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.washing_machine_current_energy",
+    "state": "0.0",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "W",
+      "device_class": "power",
+      "friendly_name": "Washing Machine current energy"
+    },
+    "last_changed": "2022-10-20T19:22:51.320358+00:00",
+    "last_updated": "2022-10-20T19:22:51.320358+00:00",
+    "context": {
+      "id": "01GFVDJB1R01GHGZ71NY4Q9FH8",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "binary_sensor.washing_machine_overheat",
+    "state": "False",
+    "attributes": {
+      "device_class": "heat",
+      "friendly_name": "Washing Machine overheat"
+    },
+    "last_changed": "2022-10-20T14:20:04.821841+00:00",
+    "last_updated": "2022-10-20T14:20:04.821841+00:00",
+    "context": {
+      "id": "01GFTW7YANH4A1K99K2PZ2CRET",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.dish_washer",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Dish Washer"
+    },
+    "last_changed": "2022-10-20T14:20:05.120653+00:00",
+    "last_updated": "2022-10-20T14:20:05.120653+00:00",
+    "context": {
+      "id": "01GFTW7YM032G57FQ7P6H286J4",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "switch.washing_machine",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Washing Machine"
+    },
+    "last_changed": "2022-10-20T14:20:05.209393+00:00",
+    "last_updated": "2022-10-20T14:20:05.209393+00:00",
+    "context": {
+      "id": "01GFTW7YPS92GRFJ5MKAMCWQE7",
+      "parent_id": null,
+      "user_id": null
+    }
+  },
+  {
+    "entity_id": "sensor.amazfit_battery",
+    "state": "28",
+    "attributes": {
+      "device_class": "battery"
+    },
+    "last_changed": "2022-10-20T14:51:59.495026+00:00",
+    "last_updated": "2022-10-20T14:51:59.495026+00:00",
+    "context": {
+      "id": "01GFTY2C47G3626AVDA7295Y11",
+      "parent_id": null,
+      "user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+    }
+  },
+  {
+    "entity_id": "sensor.amazfit_sleeping",
+    "state": "1",
+    "attributes": {},
+    "last_changed": "2022-10-20T14:58:00.300069+00:00",
+    "last_updated": "2022-10-20T14:58:00.300069+00:00",
+    "context": {
+      "id": "01GFTYDCFCNJBF4JFNZWFCYPWT",
+      "parent_id": null,
+      "user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+    }
+  },
+  {
+    "entity_id": "sensor.amazfit_trigger_3",
+    "state": "2022-10-20T16:57:00+0200",
+    "attributes": {
+      "device_class": "timestamp"
+    },
+    "last_changed": "2022-10-20T14:57:00.198909+00:00",
+    "last_updated": "2022-10-20T14:57:00.198909+00:00",
+    "context": {
+      "id": "01GFTYBHS6XNFFJNT4W8C906WT",
+      "parent_id": null,
+      "user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+    }
+  },
+  {
+    "entity_id": "sensor.amazfit_heartrate",
+    "state": "0",
+    "attributes": {},
+    "last_changed": "2022-10-20T14:25:12.054559+00:00",
+    "last_updated": "2022-10-20T14:25:12.054559+00:00",
+    "context": {
+      "id": "01GFTWHABP1MGQ2QE2E4A0Z3AF",
+      "parent_id": null,
+      "user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+    }
+  },
+  {
+    "entity_id": "sensor.amazfit_steps",
+    "state": "57",
+    "attributes": {
+      "unit_of_measurement": "steps",
+      "device_class": "duration"
+    },
+    "last_changed": "2022-10-20T14:25:32.907493+00:00",
+    "last_updated": "2022-10-20T14:25:32.907493+00:00",
+    "context": {
+      "id": "01GFTWHYQBM1BJKKXJEF1C9F8J",
+      "parent_id": null,
+      "user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+    }
+  },
+  {
+    "entity_id": "sensor.amazfit_trigger_7",
+    "state": "2022-10-20T22:43:35+0200",
+    "attributes": {
+      "device_class": "timestamp"
+    },
+    "last_changed": "2022-10-20T20:43:35.202913+00:00",
+    "last_updated": "2022-10-20T20:43:35.202913+00:00",
+    "context": {
+      "id": "01GFVJ65D2PSB3VJP3V81E7DY9",
+      "parent_id": null,
+      "user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+    }
+  },
+  {
+    "entity_id": "sensor.amazfit_connected",
+    "state": "1",
+    "attributes": {},
+    "last_changed": "2022-10-20T20:45:37.734292+00:00",
+    "last_updated": "2022-10-20T20:45:37.734292+00:00",
+    "context": {
+      "id": "01GFVJ9X2658WFQ8N3P0KS0GNW",
+      "parent_id": null,
+      "user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+    }
+  },
+  {
+    "entity_id": "sensor.amazfit_trigger_6",
+    "state": "2022-10-20T22:45:50+0200",
+    "attributes": {
+      "device_class": "timestamp"
+    },
+    "last_changed": "2022-10-20T20:45:50.019763+00:00",
+    "last_updated": "2022-10-20T20:45:50.019763+00:00",
+    "context": {
+      "id": "01GFVJA923F1BPV228AAG4BSW1",
+      "parent_id": null,
+      "user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+    }
+  },
+  {
+    "entity_id": "sensor.amazfit_trigger_2",
+    "state": "2022-10-20T16:58:00+0200",
+    "attributes": {
+      "device_class": "timestamp"
+    },
+    "last_changed": "2022-10-20T14:58:00.307038+00:00",
+    "last_updated": "2022-10-20T14:58:00.307038+00:00",
+    "context": {
+      "id": "01GFTYDCFKMXDTG5T9MG544VAW",
+      "parent_id": null,
+      "user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+    }
+  },
+  {
+    "entity_id": "persistent_notification.http_login",
+    "state": "notifying",
+    "attributes": {
+      "message": "Login attempt or request with invalid authentication from ip6-localhost (::1). See the log for details.",
+      "title": "Login attempt failed",
+      "friendly_name": "Login attempt failed"
+    },
+    "last_changed": "2022-10-20T18:30:53.061360+00:00",
+    "last_updated": "2022-10-20T18:30:53.061360+00:00",
+    "context": {
+      "id": "01GFVAK5W56VSXSM5XZSHCGQEP",
+      "parent_id": null,
+      "user_id": null
+    }
+  }
+]

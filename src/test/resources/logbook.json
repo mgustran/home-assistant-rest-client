@@ -1,0 +1,977 @@
+[
+  {
+    "when": "2022-10-20T13:13:58.661281+00:00",
+    "state": "idle",
+    "entity_id": "camera.mqtt_camera",
+    "name": "MQTT Camera"
+  },
+  {
+    "when": "2022-10-20T13:13:58.921953+00:00",
+    "state": "off",
+    "entity_id": "media_player.menjador_tv",
+    "name": "Menjador TV"
+  },
+  {
+    "name": "Home Assistant",
+    "message": "started",
+    "icon": "mdi:home-assistant",
+    "when": "2022-10-20T13:14:01.215761+00:00",
+    "domain": "homeassistant"
+  },
+  {
+    "when": "2022-10-20T13:17:49.477143+00:00",
+    "state": "2022-10-20T13:17:49.477093+00:00",
+    "entity_id": "input_button.tamare_porta",
+    "name": "tamare porta",
+    "icon": "mdi:door",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+    "context_domain": "input_button",
+    "context_service": "press",
+    "context_event_type": "call_service"
+  },
+  {
+    "when": "2022-10-20T13:29:51.318969+00:00",
+    "state": "unavailable",
+    "entity_id": "camera.mqtt_camera",
+    "name": "MQTT Camera"
+  },
+  {
+    "when": "2022-10-20T13:29:51.319788+00:00",
+    "state": "unavailable",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light"
+  },
+  {
+    "when": "2022-10-20T13:29:51.352960+00:00",
+    "state": "idle",
+    "entity_id": "camera.mqtt_camera",
+    "name": "MQTT Camera"
+  },
+  {
+    "when": "2022-10-20T13:29:51.354086+00:00",
+    "state": "unknown",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light"
+  },
+  {
+    "when": "2022-10-20T13:29:51.395293+00:00",
+    "state": "on",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light"
+  },
+  {
+    "when": "2022-10-20T14:01:17.230014+00:00",
+    "state": "2022-10-20T14:01:17.229948+00:00",
+    "entity_id": "button.home_door",
+    "name": "Home Door",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+    "context_domain": "button",
+    "context_service": "press",
+    "context_event_type": "call_service"
+  },
+  {
+    "when": "2022-10-20T14:02:06.890250+00:00",
+    "state": "unavailable",
+    "entity_id": "camera.mqtt_camera",
+    "name": "MQTT Camera"
+  },
+  {
+    "when": "2022-10-20T14:02:06.891003+00:00",
+    "state": "unavailable",
+    "entity_id": "button.home_door",
+    "name": "Home Door"
+  },
+  {
+    "when": "2022-10-20T14:02:06.891161+00:00",
+    "state": "unavailable",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light"
+  },
+  {
+    "when": "2022-10-20T14:02:06.910748+00:00",
+    "state": "idle",
+    "entity_id": "camera.mqtt_camera",
+    "name": "MQTT Camera"
+  },
+  {
+    "when": "2022-10-20T14:02:06.911683+00:00",
+    "state": "unknown",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light"
+  },
+  {
+    "when": "2022-10-20T14:02:06.955276+00:00",
+    "state": "on",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light"
+  },
+  {
+    "when": "2022-10-20T14:02:23.657694+00:00",
+    "state": "unavailable",
+    "entity_id": "camera.mqtt_camera",
+    "name": "MQTT Camera"
+  },
+  {
+    "when": "2022-10-20T14:02:23.658446+00:00",
+    "state": "unavailable",
+    "entity_id": "button.street_door",
+    "name": "Street Door"
+  },
+  {
+    "when": "2022-10-20T14:02:23.658595+00:00",
+    "state": "unavailable",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light"
+  },
+  {
+    "when": "2022-10-20T14:02:23.675355+00:00",
+    "state": "unknown",
+    "entity_id": "button.street_door",
+    "name": "Street Door"
+  },
+  {
+    "when": "2022-10-20T14:02:23.676641+00:00",
+    "state": "idle",
+    "entity_id": "camera.mqtt_camera",
+    "name": "MQTT Camera"
+  },
+  {
+    "when": "2022-10-20T14:02:23.677049+00:00",
+    "state": "unknown",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light"
+  },
+  {
+    "when": "2022-10-20T14:02:23.719253+00:00",
+    "state": "on",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light"
+  },
+  {
+    "name": "Home Assistant",
+    "message": "stopped",
+    "icon": "mdi:home-assistant",
+    "when": "2022-10-20T14:06:15.538518+00:00",
+    "domain": "homeassistant"
+  },
+  {
+    "when": "2022-10-20T14:06:28.533587+00:00",
+    "state": "off",
+    "entity_id": "media_player.menjador_tv",
+    "name": "Menjador TV"
+  },
+  {
+    "name": "Home Assistant",
+    "message": "started",
+    "icon": "mdi:home-assistant",
+    "when": "2022-10-20T14:06:29.161071+00:00",
+    "domain": "homeassistant"
+  },
+  {
+    "when": "2022-10-20T14:09:42.919506+00:00",
+    "state": "unavailable",
+    "entity_id": "camera.mqtt_camera",
+    "name": "MQTT Camera"
+  },
+  {
+    "when": "2022-10-20T14:09:42.920489+00:00",
+    "state": "unavailable",
+    "entity_id": "button.street_door",
+    "name": "Street Door"
+  },
+  {
+    "when": "2022-10-20T14:09:42.920675+00:00",
+    "state": "unavailable",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light"
+  },
+  {
+    "when": "2022-10-20T14:09:42.943315+00:00",
+    "state": "unknown",
+    "entity_id": "button.street_door",
+    "name": "Street Door"
+  },
+  {
+    "when": "2022-10-20T14:09:42.945074+00:00",
+    "state": "idle",
+    "entity_id": "camera.mqtt_camera",
+    "name": "MQTT Camera"
+  },
+  {
+    "when": "2022-10-20T14:09:42.945682+00:00",
+    "state": "unknown",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light"
+  },
+  {
+    "when": "2022-10-20T14:09:42.987437+00:00",
+    "state": "on",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light"
+  },
+  {
+    "name": "Home Assistant",
+    "message": "stopped",
+    "icon": "mdi:home-assistant",
+    "when": "2022-10-20T14:09:59.694323+00:00",
+    "domain": "homeassistant"
+  },
+  {
+    "when": "2022-10-20T14:10:12.581574+00:00",
+    "state": "off",
+    "entity_id": "media_player.menjador_tv",
+    "name": "Menjador TV"
+  },
+  {
+    "name": "Home Assistant",
+    "message": "started",
+    "icon": "mdi:home-assistant",
+    "when": "2022-10-20T14:10:13.761187+00:00",
+    "domain": "homeassistant"
+  },
+  {
+    "name": "Home Assistant",
+    "message": "stopped",
+    "icon": "mdi:home-assistant",
+    "when": "2022-10-20T14:10:40.030476+00:00",
+    "domain": "homeassistant"
+  },
+  {
+    "when": "2022-10-20T14:10:52.959212+00:00",
+    "state": "off",
+    "entity_id": "media_player.menjador_tv",
+    "name": "Menjador TV"
+  },
+  {
+    "name": "Home Assistant",
+    "message": "started",
+    "icon": "mdi:home-assistant",
+    "when": "2022-10-20T14:10:54.089182+00:00",
+    "domain": "homeassistant"
+  },
+  {
+    "when": "2022-10-20T14:11:39.742582+00:00",
+    "state": "unavailable",
+    "entity_id": "camera.mqtt_camera",
+    "name": "MQTT Camera"
+  },
+  {
+    "when": "2022-10-20T14:11:39.743462+00:00",
+    "state": "unavailable",
+    "entity_id": "button.street_door",
+    "name": "Street Door"
+  },
+  {
+    "when": "2022-10-20T14:11:39.743605+00:00",
+    "state": "unavailable",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light"
+  },
+  {
+    "when": "2022-10-20T14:11:39.765453+00:00",
+    "state": "idle",
+    "entity_id": "camera.mqtt_camera",
+    "name": "MQTT Camera"
+  },
+  {
+    "when": "2022-10-20T14:11:39.807212+00:00",
+    "state": "unknown",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light"
+  },
+  {
+    "when": "2022-10-20T14:11:39.807709+00:00",
+    "state": "on",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light"
+  },
+  {
+    "when": "2022-10-20T14:11:56.131557+00:00",
+    "state": "2022-10-20T14:11:56.131508+00:00",
+    "entity_id": "input_button.tamare_porta",
+    "name": "tamare porta",
+    "icon": "mdi:door",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+    "context_domain": "input_button",
+    "context_service": "press",
+    "context_event_type": "call_service"
+  },
+  {
+    "when": "2022-10-20T14:13:10.812622+00:00",
+    "state": "unavailable",
+    "entity_id": "camera.mqtt_camera",
+    "name": "MQTT Camera"
+  },
+  {
+    "when": "2022-10-20T14:13:10.813480+00:00",
+    "state": "unavailable",
+    "entity_id": "button.home_door",
+    "name": "Home Door"
+  },
+  {
+    "when": "2022-10-20T14:13:10.813647+00:00",
+    "state": "unavailable",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light"
+  },
+  {
+    "when": "2022-10-20T14:13:10.829224+00:00",
+    "state": "unknown",
+    "entity_id": "button.street_door",
+    "name": "Street Door"
+  },
+  {
+    "when": "2022-10-20T14:13:10.829305+00:00",
+    "state": "2022-10-20T14:01:17.229948+00:00",
+    "entity_id": "button.home_door",
+    "name": "Home Door"
+  },
+  {
+    "when": "2022-10-20T14:13:10.830972+00:00",
+    "state": "idle",
+    "entity_id": "camera.mqtt_camera",
+    "name": "MQTT Camera"
+  },
+  {
+    "when": "2022-10-20T14:13:10.831465+00:00",
+    "state": "unknown",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light"
+  },
+  {
+    "when": "2022-10-20T14:13:10.875361+00:00",
+    "state": "on",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light"
+  },
+  {
+    "when": "2022-10-20T14:14:06.425454+00:00",
+    "state": "2022-10-20T14:14:06.425391+00:00",
+    "entity_id": "button.home_door",
+    "name": "Home Door",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+    "context_domain": "button",
+    "context_service": "press",
+    "context_event_type": "call_service"
+  },
+  {
+    "when": "2022-10-20T14:14:06.681045+00:00",
+    "state": "2022-10-20T14:14:06.680988+00:00",
+    "entity_id": "button.home_door",
+    "name": "Home Door",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+    "context_domain": "button",
+    "context_service": "press",
+    "context_event_type": "call_service"
+  },
+  {
+    "name": "Home Assistant",
+    "message": "stopped",
+    "icon": "mdi:home-assistant",
+    "when": "2022-10-20T14:19:51.078637+00:00",
+    "domain": "homeassistant"
+  },
+  {
+    "when": "2022-10-20T14:20:03.975858+00:00",
+    "state": "off",
+    "entity_id": "media_player.menjador_tv",
+    "name": "Menjador TV"
+  },
+  {
+    "name": "Home Assistant",
+    "message": "started",
+    "icon": "mdi:home-assistant",
+    "when": "2022-10-20T14:20:05.209967+00:00",
+    "domain": "homeassistant"
+  },
+  {
+    "when": "2022-10-20T14:20:56.513465+00:00",
+    "state": "2022-10-20T14:20:56.513415+00:00",
+    "entity_id": "button.home_door",
+    "name": "Home Door",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+    "context_domain": "button",
+    "context_service": "press",
+    "context_event_type": "call_service"
+  },
+  {
+    "when": "2022-10-20T14:21:46.466227+00:00",
+    "state": "2022-10-20T14:21:46.466170+00:00",
+    "entity_id": "button.home_door",
+    "name": "Home Door",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+    "context_domain": "button",
+    "context_service": "press",
+    "context_event_type": "call_service"
+  },
+  {
+    "when": "2022-10-20T14:25:02.700074+00:00",
+    "state": "30",
+    "entity_id": "sensor.amazfit_battery",
+    "name": "amazfit battery",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T14:25:05.963925+00:00",
+    "state": "2022-10-20T14:25:05.963862+00:00",
+    "entity_id": "button.home_door",
+    "name": "Home Door",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+    "context_domain": "button",
+    "context_service": "press",
+    "context_event_type": "call_service"
+  },
+  {
+    "when": "2022-10-20T14:25:21.437192+00:00",
+    "state": "2022-10-20T14:25:21.437129+00:00",
+    "entity_id": "button.home_door",
+    "name": "Home Door",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+    "context_domain": "button",
+    "context_service": "press",
+    "context_event_type": "call_service"
+  },
+  {
+    "when": "2022-10-20T14:25:44.811401+00:00",
+    "state": "2022-10-20T14:25:44.811341+00:00",
+    "entity_id": "button.home_door",
+    "name": "Home Door",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+    "context_domain": "button",
+    "context_service": "press",
+    "context_event_type": "call_service"
+  },
+  {
+    "when": "2022-10-20T14:27:11.578959+00:00",
+    "state": "1",
+    "entity_id": "sensor.amazfit_connected",
+    "name": "amazfit connected",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T14:27:16.583110+00:00",
+    "state": "2022-10-20T16:27:16+0200",
+    "entity_id": "sensor.amazfit_trigger_6",
+    "name": "amazfit trigger 6",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T14:27:18.735284+00:00",
+    "state": "0",
+    "entity_id": "sensor.amazfit_connected",
+    "name": "amazfit connected",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T14:27:18.739643+00:00",
+    "state": "2022-10-20T16:27:18+0200",
+    "entity_id": "sensor.amazfit_trigger_7",
+    "name": "amazfit trigger 7",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T14:27:24.191449+00:00",
+    "state": "1",
+    "entity_id": "sensor.amazfit_connected",
+    "name": "amazfit connected",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T14:27:24.197755+00:00",
+    "state": "2022-10-20T16:27:24+0200",
+    "entity_id": "sensor.amazfit_trigger_6",
+    "name": "amazfit trigger 6",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T14:28:02.733608+00:00",
+    "state": "2022-10-20T14:28:02.733549+00:00",
+    "entity_id": "button.street_door",
+    "name": "Street Door",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+    "context_domain": "button",
+    "context_service": "press",
+    "context_event_type": "call_service"
+  },
+  {
+    "when": "2022-10-20T14:28:13.879668+00:00",
+    "state": "2022-10-20T14:28:13.879608+00:00",
+    "entity_id": "button.home_door",
+    "name": "Home Door",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+    "context_domain": "button",
+    "context_service": "press",
+    "context_event_type": "call_service"
+  },
+  {
+    "when": "2022-10-20T14:35:53.333566+00:00",
+    "state": "off",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+    "context_domain": "light",
+    "context_service": "turn_off",
+    "context_event_type": "call_service"
+  },
+  {
+    "when": "2022-10-20T14:35:55.388398+00:00",
+    "state": "on",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+    "context_domain": "light",
+    "context_service": "turn_on",
+    "context_event_type": "call_service"
+  },
+  {
+    "when": "2022-10-20T14:39:59.661428+00:00",
+    "state": "1",
+    "entity_id": "sensor.amazfit_sleeping",
+    "name": "amazfit sleeping",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T14:42:59.341681+00:00",
+    "state": "2022-10-20T16:42:59+0200",
+    "entity_id": "sensor.amazfit_trigger_3",
+    "name": "amazfit trigger 3",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T14:42:59.369690+00:00",
+    "state": "0",
+    "entity_id": "sensor.amazfit_sleeping",
+    "name": "amazfit sleeping",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T14:43:59.015128+00:00",
+    "state": "1",
+    "entity_id": "sensor.amazfit_sleeping",
+    "name": "amazfit sleeping",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T14:43:59.031418+00:00",
+    "state": "2022-10-20T16:43:58+0200",
+    "entity_id": "sensor.amazfit_trigger_2",
+    "name": "amazfit trigger 2",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T14:49:45.876297+00:00",
+    "state": "0",
+    "entity_id": "sensor.amazfit_connected",
+    "name": "amazfit connected",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T14:49:45.881284+00:00",
+    "state": "2022-10-20T16:49:45+0200",
+    "entity_id": "sensor.amazfit_trigger_7",
+    "name": "amazfit trigger 7",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T14:49:52.550237+00:00",
+    "state": "2022-10-20T16:49:52+0200",
+    "entity_id": "sensor.amazfit_trigger_6",
+    "name": "amazfit trigger 6",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T14:49:52.551545+00:00",
+    "state": "1",
+    "entity_id": "sensor.amazfit_connected",
+    "name": "amazfit connected",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T14:49:57.463696+00:00",
+    "state": "2022-10-20T16:49:57+0200",
+    "entity_id": "sensor.amazfit_trigger_6",
+    "name": "amazfit trigger 6",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T14:51:59.495026+00:00",
+    "state": "28",
+    "entity_id": "sensor.amazfit_battery",
+    "name": "amazfit battery",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T14:57:00.162676+00:00",
+    "state": "0",
+    "entity_id": "sensor.amazfit_sleeping",
+    "name": "amazfit sleeping",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T14:57:00.198909+00:00",
+    "state": "2022-10-20T16:57:00+0200",
+    "entity_id": "sensor.amazfit_trigger_3",
+    "name": "amazfit trigger 3",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T14:58:00.300069+00:00",
+    "state": "1",
+    "entity_id": "sensor.amazfit_sleeping",
+    "name": "amazfit sleeping",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T14:58:00.307038+00:00",
+    "state": "2022-10-20T16:58:00+0200",
+    "entity_id": "sensor.amazfit_trigger_2",
+    "name": "amazfit trigger 2",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T17:06:45.781287+00:00",
+    "state": "below_horizon",
+    "entity_id": "sun.sun",
+    "name": "Sun"
+  },
+  {
+    "when": "2022-10-20T18:12:58.756308+00:00",
+    "state": "off",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+    "context_domain": "light",
+    "context_service": "turn_off",
+    "context_event_type": "call_service"
+  },
+  {
+    "when": "2022-10-20T18:12:59.472975+00:00",
+    "state": "on",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+    "context_domain": "light",
+    "context_service": "turn_on",
+    "context_event_type": "call_service"
+  },
+  {
+    "when": "2022-10-20T18:14:40.551389+00:00",
+    "state": "off",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+    "context_domain": "light",
+    "context_service": "turn_off",
+    "context_event_type": "call_service"
+  },
+  {
+    "when": "2022-10-20T18:14:41.157052+00:00",
+    "state": "on",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+    "context_domain": "light",
+    "context_service": "turn_on",
+    "context_event_type": "call_service"
+  },
+  {
+    "when": "2022-10-20T18:21:35.368203+00:00",
+    "state": "off",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+    "context_domain": "light",
+    "context_service": "turn_off",
+    "context_event_type": "call_service"
+  },
+  {
+    "when": "2022-10-20T18:21:36.337007+00:00",
+    "state": "on",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+    "context_domain": "light",
+    "context_service": "turn_on",
+    "context_event_type": "call_service"
+  },
+  {
+    "when": "2022-10-20T18:21:37.262520+00:00",
+    "state": "off",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+    "context_domain": "light",
+    "context_service": "turn_off",
+    "context_event_type": "call_service"
+  },
+  {
+    "when": "2022-10-20T18:21:37.964729+00:00",
+    "state": "on",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+    "context_domain": "light",
+    "context_service": "turn_on",
+    "context_event_type": "call_service"
+  },
+  {
+    "when": "2022-10-20T20:14:44.428499+00:00",
+    "state": "2022-10-20T20:14:44.428453+00:00",
+    "entity_id": "button.home_door",
+    "name": "Home Door",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+    "context_domain": "button",
+    "context_service": "press",
+    "context_event_type": "call_service"
+  },
+  {
+    "when": "2022-10-20T20:33:22.914951+00:00",
+    "state": "0",
+    "entity_id": "sensor.amazfit_connected",
+    "name": "amazfit connected",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:33:22.915844+00:00",
+    "state": "2022-10-20T22:33:22+0200",
+    "entity_id": "sensor.amazfit_trigger_7",
+    "name": "amazfit trigger 7",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:33:32.537736+00:00",
+    "state": "2022-10-20T22:33:32+0200",
+    "entity_id": "sensor.amazfit_trigger_6",
+    "name": "amazfit trigger 6",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:33:32.538560+00:00",
+    "state": "1",
+    "entity_id": "sensor.amazfit_connected",
+    "name": "amazfit connected",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:33:36.266711+00:00",
+    "state": "2022-10-20T22:33:36+0200",
+    "entity_id": "sensor.amazfit_trigger_6",
+    "name": "amazfit trigger 6",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:34:06.571929+00:00",
+    "state": "2022-10-20T22:34:06+0200",
+    "entity_id": "sensor.amazfit_trigger_7",
+    "name": "amazfit trigger 7",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:34:06.572998+00:00",
+    "state": "0",
+    "entity_id": "sensor.amazfit_connected",
+    "name": "amazfit connected",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:34:23.685763+00:00",
+    "state": "2022-10-20T22:34:23+0200",
+    "entity_id": "sensor.amazfit_trigger_6",
+    "name": "amazfit trigger 6",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:34:23.686808+00:00",
+    "state": "1",
+    "entity_id": "sensor.amazfit_connected",
+    "name": "amazfit connected",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:34:26.431624+00:00",
+    "state": "2022-10-20T22:34:26+0200",
+    "entity_id": "sensor.amazfit_trigger_6",
+    "name": "amazfit trigger 6",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:35:27.757521+00:00",
+    "state": "0",
+    "entity_id": "sensor.amazfit_connected",
+    "name": "amazfit connected",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:35:27.758531+00:00",
+    "state": "2022-10-20T22:35:27+0200",
+    "entity_id": "sensor.amazfit_trigger_7",
+    "name": "amazfit trigger 7",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:35:50.033890+00:00",
+    "state": "1",
+    "entity_id": "sensor.amazfit_connected",
+    "name": "amazfit connected",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:35:50.034843+00:00",
+    "state": "2022-10-20T22:35:50+0200",
+    "entity_id": "sensor.amazfit_trigger_6",
+    "name": "amazfit trigger 6",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:35:51.670470+00:00",
+    "state": "2022-10-20T22:35:51+0200",
+    "entity_id": "sensor.amazfit_trigger_6",
+    "name": "amazfit trigger 6",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:36:10.717507+00:00",
+    "state": "0",
+    "entity_id": "sensor.amazfit_connected",
+    "name": "amazfit connected",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:36:10.718448+00:00",
+    "state": "2022-10-20T22:36:10+0200",
+    "entity_id": "sensor.amazfit_trigger_7",
+    "name": "amazfit trigger 7",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:36:45.424410+00:00",
+    "state": "2022-10-20T22:36:45+0200",
+    "entity_id": "sensor.amazfit_trigger_6",
+    "name": "amazfit trigger 6",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:36:45.425469+00:00",
+    "state": "1",
+    "entity_id": "sensor.amazfit_connected",
+    "name": "amazfit connected",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:36:47.701267+00:00",
+    "state": "2022-10-20T22:36:47+0200",
+    "entity_id": "sensor.amazfit_trigger_6",
+    "name": "amazfit trigger 6",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:40:22.724633+00:00",
+    "state": "0",
+    "entity_id": "sensor.amazfit_connected",
+    "name": "amazfit connected",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:40:22.725605+00:00",
+    "state": "2022-10-20T22:40:22+0200",
+    "entity_id": "sensor.amazfit_trigger_7",
+    "name": "amazfit trigger 7",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:42:55.708021+00:00",
+    "state": "2022-10-20T22:42:55+0200",
+    "entity_id": "sensor.amazfit_trigger_6",
+    "name": "amazfit trigger 6",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:42:55.708877+00:00",
+    "state": "1",
+    "entity_id": "sensor.amazfit_connected",
+    "name": "amazfit connected",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:43:19.723009+00:00",
+    "state": "2022-10-20T22:43:19+0200",
+    "entity_id": "sensor.amazfit_trigger_6",
+    "name": "amazfit trigger 6",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:43:35.201830+00:00",
+    "state": "0",
+    "entity_id": "sensor.amazfit_connected",
+    "name": "amazfit connected",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:43:35.202913+00:00",
+    "state": "2022-10-20T22:43:35+0200",
+    "entity_id": "sensor.amazfit_trigger_7",
+    "name": "amazfit trigger 7",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:45:37.734292+00:00",
+    "state": "1",
+    "entity_id": "sensor.amazfit_connected",
+    "name": "amazfit connected",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:45:37.735993+00:00",
+    "state": "2022-10-20T22:45:37+0200",
+    "entity_id": "sensor.amazfit_trigger_6",
+    "name": "amazfit trigger 6",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T20:45:50.019763+00:00",
+    "state": "2022-10-20T22:45:50+0200",
+    "entity_id": "sensor.amazfit_trigger_6",
+    "name": "amazfit trigger 6",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd"
+  },
+  {
+    "when": "2022-10-20T22:56:50.004149+00:00",
+    "state": "off",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+    "context_domain": "light",
+    "context_service": "turn_off",
+    "context_event_type": "call_service"
+  },
+  {
+    "when": "2022-10-20T22:56:50.444648+00:00",
+    "state": "on",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+    "context_domain": "light",
+    "context_service": "turn_on",
+    "context_event_type": "call_service"
+  },
+  {
+    "when": "2022-10-20T22:57:14.616813+00:00",
+    "state": "off",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+    "context_domain": "light",
+    "context_service": "turn_off",
+    "context_event_type": "call_service"
+  },
+  {
+    "when": "2022-10-20T22:57:22.289550+00:00",
+    "state": "on",
+    "entity_id": "light.bedroom_light",
+    "name": "Bedroom Light",
+    "context_user_id": "dd0b69efaace42a4a49589a94b41fcdd",
+    "context_domain": "light",
+    "context_service": "turn_on",
+    "context_event_type": "call_service"
+  }
+]
