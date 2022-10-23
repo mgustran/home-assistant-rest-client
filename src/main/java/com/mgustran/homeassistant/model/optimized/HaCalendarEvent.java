@@ -7,7 +7,7 @@ import lombok.Builder;
 import lombok.Value;
 import lombok.extern.jackson.Jacksonized;
 
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Value
 @Builder(toBuilder = true)
@@ -23,11 +23,11 @@ public class HaCalendarEvent {
     public Object location;
 
     @JsonProperty("start")
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
-    public LocalDate start;
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ssXXX")
+    public LocalDateTime start;
 
     @JsonProperty("end")
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
-    public LocalDate end;
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ssXXX")
+    public LocalDateTime end;
 
 }

@@ -24,15 +24,15 @@ public class HaConfig {
     String locationName;
     @JsonProperty("time_zone")
     String timeZone;
-    List<String> components = null;
+    List<String> components;
     @JsonProperty("config_dir")
     String configDir;
     @JsonProperty("whitelist_external_dirs")
-    List<String> whitelistExternalDirs = null;
+    List<String> whitelistExternalDirs;
     @JsonProperty("allowlist_external_dirs")
-    List<String> allowlistExternalDirs = null;
+    List<String> allowlistExternalDirs;
     @JsonProperty("allowlist_external_urls")
-    List<Object> allowlistExternalUrls = null;
+    List<Object> allowlistExternalUrls;
     String version;
     @JsonProperty("config_source")
     String configSource;

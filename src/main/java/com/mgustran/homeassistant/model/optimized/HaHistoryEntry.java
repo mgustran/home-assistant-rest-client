@@ -6,6 +6,8 @@ import lombok.Builder;
 import lombok.Value;
 import lombok.extern.jackson.Jacksonized;
 
+import java.util.LinkedHashMap;
+
 @Value
 @Builder(toBuilder = true)
 @AllArgsConstructor
@@ -16,7 +18,8 @@ public class HaHistoryEntry {
     public String entityId;
     public String state;
     @JsonProperty("attributes")
-    public HaAttributes haAttributes;
+    public LinkedHashMap<String, Object> attributes;
+//    public HaAttributes attributes;
     @JsonProperty("last_changed")
     public String lastChanged;
     @JsonProperty("last_updated")

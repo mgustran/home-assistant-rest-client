@@ -13,8 +13,8 @@ import java.util.LinkedHashMap;
 @AllArgsConstructor
 @Jacksonized
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class OriginalHaDomain {
+public class OriginalHaIntentResponse {
 
-    String domain;
-    LinkedHashMap<String, LinkedHashMap<String, Object>> services;
+    OriginalHaIntentResponseSpeech speech;
+    LinkedHashMap<String, Object> card;
 }

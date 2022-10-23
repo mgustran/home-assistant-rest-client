@@ -6,15 +6,12 @@ import lombok.Builder;
 import lombok.Value;
 import lombok.extern.jackson.Jacksonized;
 
-import java.util.LinkedHashMap;
-
 @Value
 @Builder(toBuilder = true)
 @AllArgsConstructor
 @Jacksonized
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class OriginalHaDomain {
+public class OriginalHaIntentResponseSpeech {
 
-    String domain;
-    LinkedHashMap<String, LinkedHashMap<String, Object>> services;
+    OriginalHaIntentResponseSpeechType plain;
 }

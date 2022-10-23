@@ -5,12 +5,12 @@
 
 
 	<groupId>com.mgustran</groupId>
-	<artifactId>ha-api-client</artifactId>
+	<artifactId>home-assistant-rest-client</artifactId>
 	<version>0.0.2-SNAPSHOT</version>
 
 
 	<name>ha-api-client</name>
-	<description>Domotich Rest Model Java Library</description>
+	<description>Home Assistant Rest API Java Client Library</description>
 
 	<properties>
 		<java.version>11</java.version>
@@ -39,6 +39,13 @@
 			<groupId>com.fasterxml.jackson.datatype</groupId>
 			<artifactId>jackson-datatype-jsr310</artifactId>
 			<version>2.14.0-rc1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter</artifactId>
+			<version>5.9.1</version>
+			<scope>test</scope>
 		</dependency>
 
 	</dependencies>
