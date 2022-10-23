@@ -4,6 +4,10 @@
 
 
 ## Usage
+### From Maven Central
+* Publish access is requested, 
+until it be available the only way is download and compile
+### Local
 * Install the lib to your local:
   * `mvn clean install`
 
@@ -24,17 +28,25 @@
 
 ## About the lib
 
-* **Development still in progress**
+* This library provides a simple way to communicate with [Home Assistant Rest API](https://developers.home-assistant.io/docs/api/rest/)
 
+[//]: # (* **Development still in progress**)
 
-* Currently, I have never done a lib to be used
-  with many different configurations (java versions, other deps, etc), so be pacient if something is not THE STANDARD or THE GOOD WAY
+[//]: # ()
+[//]: # ()
+[//]: # (* Currently, I have never done a lib to be used)
 
+[//]: # (  with many different configurations &#40;java versions, other deps, etc&#41;, so be pacient if something is not THE STANDARD or THE GOOD WAY)
 
-* This library is not published in any maven repo,
-  you will have to install it locally with maven
-  or deploy it to your repo.
-  (I like to think that one day I will publish it to central, but who knows)
+[//]: # ()
+[//]: # ()
+[//]: # (* This library is not published in any maven repo,)
+
+[//]: # (  you will have to install it locally with maven)
+
+[//]: # (  or deploy it to your repo.)
+
+[//]: # (  &#40;I like to think that one day I will publish it to central, but who knows&#41;)
 
 
 * This library works with **Java >= 8**, **Maven** and has some dependencies already provided:

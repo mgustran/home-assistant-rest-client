@@ -9,15 +9,46 @@
 	<version>0.0.2-SNAPSHOT</version>
 
 
-	<name>ha-api-client</name>
+	<name>home-assistant-rest-client</name>
 	<description>Home Assistant Rest API Java Client Library</description>
+	<url>https://github.com/mgustran/home-assistant-rest-client.git</url>
+
+
+	<licenses>
+		<license>
+			<name>MIT License, Version 2.0</name>
+			<url>http://www.opensource.org/licenses/mit-license.php</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<id>mgustran</id>
+			<name>Miquel Gustran</name>
+			<email>mgustran@gmail.com</email>
+			<roles>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
+		</developer>
+	</developers>
+
+	<scm>
+		<developerConnection>scm:git:ssh://github.com/mgustran/home-assistant-rest-client.git</developerConnection>
+		<connection>${project.scm.developerConnection}</connection>
+		<url>${project.url}</url>
+	</scm>
+
 
 	<properties>
-		<java.version>11</java.version>
-		<maven.compiler.target>11</maven.compiler.target>
-		<maven.compiler.source>11</maven.compiler.source>
+<!--		<java.version>11</java.version>-->
+<!--		<maven.compiler.target>11</maven.compiler.target>-->
+<!--		<maven.compiler.source>11</maven.compiler.source>-->
 
-		<sonar.projectKey>dt-lib-rest-model_xxxx</sonar.projectKey>
+		<sonar.projectKey>mgustran-lib-home-assistant-api-client</sonar.projectKey>
+		<version.plugin.javadoc>3.4.1</version.plugin.javadoc>
+		<version.plugin.source>3.2.1</version.plugin.source>
 	</properties>
 
 	<dependencies>
@@ -48,7 +79,57 @@
 			<scope>test</scope>
 		</dependency>
 
+<!--		todo: Temporal until maven central request is completed-->
+<!--		<dependency>-->
+<!--			<groupId>com.github.mgustran</groupId>-->
+<!--			<artifactId>home-assistant-rest-client</artifactId>-->
+<!--			<version>0.0.2</version>-->
+<!--		</dependency>-->
+
 	</dependencies>
+
+	<build>
+
+		<plugins>
+			<plugin>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>${version.plugin.source}</version>
+<!--				<version>3.1.0</version>-->
+				<executions>
+					<execution>
+						<id>attach-source</id>
+						<phase>compile</phase>
+						<goals>
+							<goal>jar-no-fork</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>${version.plugin.javadoc}</version>
+				<executions>
+					<execution>
+						<id>attach-javadocs</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+
+
+	</build>
+
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
 
 	<distributionManagement>
         <repository>
