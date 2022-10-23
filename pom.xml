@@ -10,7 +10,7 @@
 
 
 	<name>home-assistant-rest-client</name>
-	<description>Home Assistant Rest API Java Client Library</description>
+	<description>Home Assistant Rest API Java Client Library for communication with HA instance</description>
 	<url>https://github.com/mgustran/home-assistant-rest-client.git</url>
 
 

@@ -12,19 +12,19 @@ You can use jitpack to add this dependency:
   * Add jitpack repository:
     * ```
       <repositories>
-		\\\\   <repository>
-		\\\\       <id>jitpack.io</id>
-		\\\\       <url>https://jitpack.io</url>
-		\\\\   </repository>
+		  <repository>
+		      <id>jitpack.io</id>
+		      <url>https://jitpack.io</url>
+		  </repository>
       </repositories> 
       ```
   * Add maven dependency:
     * ```
       <dependency>
-			\\\    <groupId>com.github.mgustran</groupId>
-			\\\    <artifactId>home-assistant-rest-client</artifactId>
-			\\\    <version>0.0.4</version>
-		\\\\</dependency>
+			<groupId>com.github.mgustran</groupId>
+			<artifactId>home-assistant-rest-client</artifactId>
+			<version>0.0.4</version>
+      <dependency>
       ```
 
 ### Option 3) Local
