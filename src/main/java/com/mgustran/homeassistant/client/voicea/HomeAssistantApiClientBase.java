@@ -33,6 +33,6 @@ class HomeAssistantApiClientBase {
 
         this.host = host.endsWith("/") ? host.substring(0, host.length() - 1) : host;
         this.token = token.replace("Bearer", "").trim();
-        this.tz = (tz != null && tz.isBlank()) ? ZoneId.of(tz) : ZoneId.systemDefault();
+        this.tz = (tz != null && !tz.isEmpty()) ? ZoneId.of(tz) : ZoneId.systemDefault();
     }
 }

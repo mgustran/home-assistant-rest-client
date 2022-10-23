@@ -2,6 +2,7 @@ package com.mgustran.homeassistant.client.base;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mgustran.homeassistant.client.exception.HaException;
+import com.mgustran.homeassistant.client.util.HeadersUtils;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,6 +11,7 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
+import java.util.HashMap;
 import java.util.Map;
 
 public class BaseClient {
@@ -83,12 +85,13 @@ public class BaseClient {
 
     public static void main(String[] args) throws  HaException {
         BaseClient client2 = new BaseClient();
+        HeadersUtils headersUtils = new HeadersUtils();
         final String json2 = "{ \"name\": \"HassTurnOn\", \"data\": { \"name\": \"Bedroom Light\" } }";
+        final HashMap<String, String> headers = headersUtils.generateHeaders("",
+                HeadersUtils.Header.JSON, HeadersUtils.Header.JSON);
 
         final BaseResponse<String> test3 = client2.execute("http://localhost:8123/api/intent/handle",
-                "GET", Map.of("Authorization", "Bearer xxx",
-                        "Accept", "application/json", "Content-Type", "application/json"),
-                json2);
+                "GET", headers, json2);
         System.out.println(test3.getResponse());
     }
 }

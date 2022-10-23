@@ -11,6 +11,7 @@ import com.mgustran.homeassistant.model.original.OriginalHaDomain;
 import com.mgustran.homeassistant.model.original.OriginalHaIntentResponse;
 import lombok.NonNull;
 
+import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 import java.time.LocalDateTime;
@@ -20,6 +21,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import static com.mgustran.homeassistant.client.util.HeadersUtils.Header.JSON;
 import static com.mgustran.homeassistant.client.util.HeadersUtils.Header.TEXT;
@@ -54,7 +56,7 @@ public class HomeAssistantApiClient extends HomeAssistantApiClientBase {
                 this.host + "/api/events", "GET",
                 headers,null, HaEvent[].class);
 
-        return List.of(response.getResponse());
+        return Arrays.asList(response.getResponse());
     }
 
     public List<HaDomain> getServicesGroupedByDomain() throws HaException {
@@ -63,33 +65,46 @@ public class HomeAssistantApiClient extends HomeAssistantApiClientBase {
                 this.host + "/api/services", "GET",
                 headers,null, OriginalHaDomain[].class);
 
-        return new OriginalDomainToOptimizedDomainConverter().convertList(List.of(response.getResponse()));
+        return new OriginalDomainToOptimizedDomainConverter().convertList(Arrays.asList(response.getResponse()));
     }
 
     public List<HaHistoryEntry> getHistory(final LocalDateTime dateFrom, final LocalDateTime dateTo, final List<String> entityIds) throws HaException {
-        final DateTimeFormatter dateFormat = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ssXXX");
-        final String dateFromStr = dateFrom != null ? ("/" + ZonedDateTime.of(dateFrom, this.tz).format(dateFormat)) : "";
-        String query = "?" + (dateTo != null ? "end_time=" + URLEncoder.encode(ZonedDateTime.of(dateTo, this.tz).format(dateFormat), StandardCharsets.UTF_8) + "&" : "");
-        query = query + (entityIds != null && !entityIds.isEmpty() ? "filter_entity_id=" + String.join(",", entityIds) : "");
-        final HashMap<String, String> headers = this.headersUtils.generateHeaders(this.token, JSON);
-        final BaseResponse<HaHistoryEntry[][]> response = this.baseClient.execute(
-                this.host + "/api/history/period" + dateFromStr + query, "GET",
-                headers,null, HaHistoryEntry[][].class);
+        try {
+            final DateTimeFormatter dateFormat = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ssXXX");
+            final String dateFromStr = dateFrom != null ? ("/" + ZonedDateTime.of(dateFrom, this.tz).format(dateFormat)) : "";
+            String query = "?" + (dateTo != null ? "end_time=" + URLEncoder.encode(ZonedDateTime.of(dateTo, this.tz).format(dateFormat), StandardCharsets.UTF_8.toString()) + "&" : "");
+            query = query + (entityIds != null && !entityIds.isEmpty() ? "filter_entity_id=" + String.join(",", entityIds) : "");
+            final HashMap<String, String> headers = this.headersUtils.generateHeaders(this.token, JSON);
+            final BaseResponse<HaHistoryEntry[][]> response = this.baseClient.execute(
+                    this.host + "/api/history/period" + dateFromStr + query, "GET",
+                    headers,null, HaHistoryEntry[][].class);
 
-        return List.of(response.getResponse()[0]);
+            return Arrays.stream(response.getResponse())
+                    .flatMap(Arrays::stream)
+                    .collect(Collectors.toList());
+
+        } catch (UnsupportedEncodingException e) {
+            throw new HaException(e);
+        }
+
     }
 
     public List<HaLogBookEntry> getLogBook(final LocalDateTime dateFrom, final LocalDateTime dateTo, final String entityId) throws HaException {
-        final DateTimeFormatter dateFormat = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ssXXX");
-        final String dateFromStr = dateFrom != null ? ("/" + ZonedDateTime.of(dateFrom, this.tz).format(dateFormat)) : "";
-        String query = "?" + (dateTo != null ? "end_time=" + URLEncoder.encode(ZonedDateTime.of(dateTo, this.tz).format(dateFormat), StandardCharsets.UTF_8) + "&" : "");
-        query = query + (entityId != null && !entityId.isEmpty() ? "entity=" + entityId : "");
-        final HashMap<String, String> headers = this.headersUtils.generateHeaders(this.token, JSON);
-        final BaseResponse<HaLogBookEntry[]> response = this.baseClient.execute(
-                this.host + "/api/logbook" + dateFromStr + query, "GET",
-                headers,null, HaLogBookEntry[].class);
+        try {
+            final DateTimeFormatter dateFormat = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ssXXX");
+            final String dateFromStr = dateFrom != null ? ("/" + ZonedDateTime.of(dateFrom, this.tz).format(dateFormat)) : "";
+            String query = "?" + (dateTo != null ? "end_time=" + URLEncoder.encode(ZonedDateTime.of(dateTo, this.tz).format(dateFormat), StandardCharsets.UTF_8.toString()) + "&" : "");
+            query = query + (entityId != null && !entityId.isEmpty() ? "entity=" + entityId : "");
+            final HashMap<String, String> headers = this.headersUtils.generateHeaders(this.token, JSON);
+            final BaseResponse<HaLogBookEntry[]> response = this.baseClient.execute(
+                    this.host + "/api/logbook" + dateFromStr + query, "GET",
+                    headers,null, HaLogBookEntry[].class);
 
-        return List.of(response.getResponse());
+            return Arrays.asList(response.getResponse());
+        } catch (UnsupportedEncodingException e) {
+            throw new HaException(e);
+        }
+
     }
 
     public List<HaState> getStates() throws HaException {
@@ -138,19 +153,24 @@ public class HomeAssistantApiClient extends HomeAssistantApiClientBase {
     }
 
     public List<HaCalendarEvent> getCalendarEvents(@NonNull final LocalDateTime dateFrom, @NonNull final LocalDateTime dateTo, final String entityId) throws HaException {
-        final OriginalCalendarEventToOptimizedConverter converter = new OriginalCalendarEventToOptimizedConverter();
-        final DateTimeFormatter dateFormat = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ssXXX");
-        final String dateFromStr = ZonedDateTime.of(dateFrom, this.tz).format(dateFormat);
-        final String dateToStr = ZonedDateTime.of(dateTo, this.tz).format(dateFormat);
-        String query = "?start=" + URLEncoder.encode(dateFromStr, StandardCharsets.UTF_8);
-        query = query + "&end=" + URLEncoder.encode(dateToStr, StandardCharsets.UTF_8);
-        query = query + (entityId != null && !entityId.isEmpty() ? "&entity=" + entityId : "");
-        final HashMap<String, String> headers = this.headersUtils.generateHeaders(this.token, JSON);
-        final BaseResponse<OriginalHaCalendarEvent[]> response = this.baseClient.execute(
-                this.host + "/api/calendars/" + entityId + query, "GET",
-                headers,null, OriginalHaCalendarEvent[].class);
+        try {
+            final OriginalCalendarEventToOptimizedConverter converter = new OriginalCalendarEventToOptimizedConverter();
+            final DateTimeFormatter dateFormat = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ssXXX");
+            final String dateFromStr = ZonedDateTime.of(dateFrom, this.tz).format(dateFormat);
+            final String dateToStr = ZonedDateTime.of(dateTo, this.tz).format(dateFormat);
+            String query = "?start=" + URLEncoder.encode(dateFromStr, StandardCharsets.UTF_8.toString());
+            query = query + "&end=" + URLEncoder.encode(dateToStr, StandardCharsets.UTF_8.toString());
+            query = query + (entityId != null && !entityId.isEmpty() ? "&entity=" + entityId : "");
+            final HashMap<String, String> headers = this.headersUtils.generateHeaders(this.token, JSON);
+            final BaseResponse<OriginalHaCalendarEvent[]> response = this.baseClient.execute(
+                    this.host + "/api/calendars/" + entityId + query, "GET",
+                    headers,null, OriginalHaCalendarEvent[].class);
 
-        return converter.convertList(List.of(response.getResponse()));
+            return converter.convertList(Arrays.asList(response.getResponse()));
+        } catch (UnsupportedEncodingException e) {
+            throw new HaException(e);
+        }
+
     }
 
 
@@ -179,7 +199,7 @@ public class HomeAssistantApiClient extends HomeAssistantApiClientBase {
                 this.host + "/api/services/" + domainAndService, "POST",
                 headers, serviceData, HaState[].class);
 
-        return List.of(response.getResponse());
+        return Arrays.asList(response.getResponse());
     }
 
     public List<HaState> callServiceByEntityId(@NonNull final String domainAndService, @NonNull final String serviceData) throws HaException {
@@ -190,7 +210,7 @@ public class HomeAssistantApiClient extends HomeAssistantApiClientBase {
                 this.host + "/api/services/" + domainAndService, "POST",
                 headers, data, HaState[].class);
 
-        return List.of(response.getResponse());
+        return Arrays.asList(response.getResponse());
     }
 
     public String renderTemplate(@NonNull final String templateMessage) throws HaException {

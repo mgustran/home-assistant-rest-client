@@ -9,6 +9,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDateTime;
+import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.List;
 
@@ -59,7 +60,7 @@ public class HomeAssistantApiClientTest {
     @Test
     @DisplayName("/api/history/period/<timestamp>  ->  Retrieve history for entity with default params")
     void getHistoryByEntityDefaultDate() throws HaException {
-        final List<String> entityList = List.of("zone.home", "sun.sun");
+        final List<String> entityList = Arrays.asList("zone.home", "sun.sun");
         List<HaHistoryEntry> history = this.homeAssistantApiClient.getHistory(null, null, entityList);
         assertNotNull(history, "Response list must not be null");
         assertTrue(history.size() > 0, "Response list must not be empty");
@@ -89,7 +90,7 @@ public class HomeAssistantApiClientTest {
     void getHistoryByFromToDateForAnEntity() throws HaException {
         final LocalDateTime dateFrom = LocalDateTime.of(2022, 9, 1, 0, 0);
         final LocalDateTime dateTo = LocalDateTime.of(2022, 11, 1, 0, 0);
-        final List<String> entityList = List.of("zone.home", "sun.sun");
+        final List<String> entityList = Arrays.asList("zone.home", "sun.sun");
         List<HaHistoryEntry> history = this.homeAssistantApiClient.getHistory(dateFrom, dateTo, entityList);
         assertNotNull(history, "Response list must not be null");
         assertTrue(history.size() > 0, "Response list must not be empty");
@@ -239,7 +240,7 @@ public class HomeAssistantApiClientTest {
         final String template = "It is {{ now() }}!";
         String text = this.homeAssistantApiClient.renderTemplate(template);
         assertNotNull(text, "Response must not be null");
-        assertFalse(text.isBlank(), "Response must not be null");
+        assertFalse(text.isEmpty(), "Response must not be empty");
     }
 
     @Test
