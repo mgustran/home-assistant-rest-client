@@ -83,15 +83,15 @@ public class BaseClient {
 
     }
 
-    public static void main(String[] args) throws  HaException {
-        BaseClient client2 = new BaseClient();
-        HeadersUtils headersUtils = new HeadersUtils();
-        final String json2 = "{ \"name\": \"HassTurnOn\", \"data\": { \"name\": \"Bedroom Light\" } }";
-        final HashMap<String, String> headers = headersUtils.generateHeaders("",
-                HeadersUtils.Header.JSON, HeadersUtils.Header.JSON);
-
-        final BaseResponse<String> test3 = client2.execute("http://localhost:8123/api/intent/handle",
-                "GET", headers, json2);
-        System.out.println(test3.getResponse());
-    }
+//    public static void main(String[] args) throws  HaException {
+//        BaseClient client2 = new BaseClient();
+//        HeadersUtils headersUtils = new HeadersUtils();
+//        final String json2 = "{ \"name\": \"HassTurnOn\", \"data\": { \"name\": \"Bedroom Light\" } }";
+//        final HashMap<String, String> headers = headersUtils.generateHeaders("",
+//                HeadersUtils.Header.JSON, HeadersUtils.Header.JSON);
+//
+//        final BaseResponse<String> test3 = client2.execute("http://localhost:8123/api/intent/handle",
+//                "GET", headers, json2);
+//        System.out.println(test3.getResponse());
+//    }
 }
