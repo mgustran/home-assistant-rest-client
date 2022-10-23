@@ -3,23 +3,38 @@
 
 
 
-## Usage
-### From Maven Central
-* Publish access is requested, 
-until it be available the only way is download and compile
-### Local
-* Install the lib to your local:
+## Installation
+### Option 1) From Maven Central
+* Publish access is requested, not available yet
+
+### Option 2) Jitpack
+You can use jitpack to add this dependency:
+  * Add jitpack repository:
+    * ```
+      <repositories>
+		\\\\   <repository>
+		\\\\       <id>jitpack.io</id>
+		\\\\       <url>https://jitpack.io</url>
+		\\\\   </repository>
+      </repositories> 
+      ```
+  * Add maven dependency:
+    * ```
+      <dependency>
+			\\\    <groupId>com.github.mgustran</groupId>
+			\\\    <artifactId>home-assistant-rest-client</artifactId>
+			\\\    <version>0.0.4</version>
+		\\\\</dependency>
+      ```
+
+### Option 3) Local
+* Download project and install the lib to your local:
   * `mvn clean install`
 
 
-* Declare the dependency in your project (copy this block from pom.xml):
-  * `<groupId>com.mgustran</groupId>`
-  * `<artifactId>ha-api-client</artifactId>`
-  * `<version>0.0.2-SNAPSHOT</version>`
-
-
+## Usage
 * **Set Config values**
-  * put those properties in `application.properties` file inside **your project** resources' folder / classpath:
+  * put those properties in `application.properties` file inside your project resources' folder / classpath:
     * `homeassistant.host=http://example.com:8123`  # HA host
     * `homeassistant.token=eyJ0eXAiOiJ...`   # HA Long Lived Token
 
@@ -51,8 +66,9 @@ until it be available the only way is download and compile
 
 * This library works with **Java >= 8**, **Maven** and has some dependencies already provided:
   * **lombok** : 1.18.24
-  * **jackson-databind**: 2.14.0-rc1
-  * **jackson-datatype-jsr310**: 2.14.0-rc1
+  * **jackson-databind** : 2.14.0-rc1
+  * **jackson-datatype-jsr310** : 2.14.0-rc1
+  * junit-jupiter (test) : 5.9.1
 
 
 ## Contributing
