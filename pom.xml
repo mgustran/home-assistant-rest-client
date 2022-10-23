@@ -6,7 +6,7 @@
 
 	<groupId>com.mgustran</groupId>
 	<artifactId>home-assistant-rest-client</artifactId>
-	<version>0.0.3</version>
+	<version>0.0.4</version>
 
 
 	<name>home-assistant-rest-client</name>
