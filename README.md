@@ -21,9 +21,9 @@ You can use jitpack to add this dependency:
   * Add maven dependency:
     * ```
       <dependency>
-			<groupId>com.github.mgustran</groupId>
-			<artifactId>home-assistant-rest-client</artifactId>
-			<version>0.0.4</version>
+		  <groupId>com.github.mgustran</groupId>
+		  <artifactId>home-assistant-rest-client</artifactId>
+		  <version>0.0.4</version>
       <dependency>
       ```
 
