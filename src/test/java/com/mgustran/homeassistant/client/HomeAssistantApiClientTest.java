@@ -3,7 +3,7 @@ package com.mgustran.homeassistant.client;
 
 import com.mgustran.homeassistant.client.base.BaseResponse;
 import com.mgustran.homeassistant.client.exception.HaException;
-import com.mgustran.homeassistant.client.voicea.HomeAssistantApiClient;
+import com.mgustran.homeassistant.client.ha.HomeAssistantApiClient;
 import com.mgustran.homeassistant.model.optimized.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

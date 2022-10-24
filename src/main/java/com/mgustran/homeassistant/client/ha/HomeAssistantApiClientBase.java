@@ -1,4 +1,4 @@
-package com.mgustran.homeassistant.client.voicea;
+package com.mgustran.homeassistant.client.ha;
 
 import com.mgustran.homeassistant.client.base.BaseClient;
 import com.mgustran.homeassistant.client.util.HeadersUtils;

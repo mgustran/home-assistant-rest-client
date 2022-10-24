@@ -6,7 +6,7 @@
 
 	<groupId>com.mgustran</groupId>
 	<artifactId>home-assistant-rest-client</artifactId>
-	<version>0.0.4</version>
+	<version>1.0.1</version>
 
 
 	<name>home-assistant-rest-client</name>
@@ -49,6 +49,7 @@
 		<sonar.projectKey>mgustran-lib-home-assistant-api-client</sonar.projectKey>
 		<version.plugin.javadoc>3.4.1</version.plugin.javadoc>
 		<version.plugin.source>3.2.1</version.plugin.source>
+		<version.plugin.gpg>3.0.1</version.plugin.gpg>
 	</properties>
 
 	<dependencies>
@@ -112,17 +113,49 @@
 					</execution>
 				</executions>
 			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-gpg-plugin</artifactId>
+				<version>${version.plugin.gpg}</version>
+				<executions>
+					<execution>
+						<id>sign-artifacts</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>sign</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+
+			<plugin>
+				<groupId>org.sonatype.plugins</groupId>
+				<artifactId>nexus-staging-maven-plugin</artifactId>
+				<version>1.6.7</version>
+				<extensions>true</extensions>
+				<configuration>
+					<serverId>ossrh</serverId>
+					<nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
+					<autoReleaseAfterClose>true</autoReleaseAfterClose>
+				</configuration>
+			</plugin>
+
+
 		</plugins>
+
+
 
 
 	</build>
 
-	<repositories>
-		<repository>
-			<id>jitpack.io</id>
-			<url>https://jitpack.io</url>
-		</repository>
-	</repositories>
+<!--	<repositories>-->
+<!--		<repository>-->
+<!--			<id>jitpack.io</id>-->
+<!--			<url>https://jitpack.io</url>-->
+<!--		</repository>-->
+<!--	</repositories>-->
 
 <!--	<distributionManagement>-->
 <!--        <repository>-->
@@ -137,18 +170,18 @@
 <!--        </snapshotRepository>-->
 <!--    </distributionManagement>-->
 
-	<distributionManagement>
-		<snapshotRepository>
-			<id>sonatype-nexus-snapshots</id>
-			<name>Sonatype Nexus Snapshots</name>
-			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
-		</snapshotRepository>
-		<repository>
-			<id>sonatype-nexus-staging</id>
-			<name>Nexus Release Repository</name>
-			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
-		</repository>
-	</distributionManagement>
+<!--	<distributionManagement>-->
+<!--		<snapshotRepository>-->
+<!--			<id>sonatype-nexus-snapshots</id>-->
+<!--			<name>Sonatype Nexus Snapshots</name>-->
+<!--			<url>https://oss.sonatype.org/content/repositories/snapshots</url>-->
+<!--		</snapshotRepository>-->
+<!--		<repository>-->
+<!--			<id>sonatype-nexus-staging</id>-->
+<!--			<name>Nexus Release Repository</name>-->
+<!--			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>-->
+<!--		</repository>-->
+<!--	</distributionManagement>-->
 
 
 </project>
