@@ -30,7 +30,7 @@ You can use jitpack to add this dependency:
       <dependency>
           <groupId>com.github.mgustran</groupId>
           <artifactId>home-assistant-rest-client</artifactId>
-          <version>0.0.4</version>
+          <version>1.0.1</version>
       <dependency>
       ```
 
