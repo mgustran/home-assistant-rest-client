@@ -4,26 +4,33 @@
 
 
 ## Installation
-### Option 1) From Maven Central
-* Publish access is requested, not available yet
+### Option 1) From Maven Central (recommended)
+* Add maven dependency
+    * ```
+      <dependency>
+          <groupId>com.mgustran</groupId>
+          <artifactId>home-assistant-rest-client</artifactId>
+          <version>1.0.1</version>
+      </dependency>
+      ```
 
 ### Option 2) Jitpack
 You can use jitpack to add this dependency:
   * Add jitpack repository:
     * ```
       <repositories>
-		  <repository>
-		      <id>jitpack.io</id>
-		      <url>https://jitpack.io</url>
-		  </repository>
+         <repository>
+             <id>jitpack.io</id>
+             <url>https://jitpack.io</url>
+         </repository>
       </repositories> 
       ```
   * Add maven dependency:
     * ```
       <dependency>
-		  <groupId>com.github.mgustran</groupId>
-		  <artifactId>home-assistant-rest-client</artifactId>
-		  <version>0.0.4</version>
+          <groupId>com.github.mgustran</groupId>
+          <artifactId>home-assistant-rest-client</artifactId>
+          <version>0.0.4</version>
       <dependency>
       ```
 
@@ -44,6 +51,8 @@ You can use jitpack to add this dependency:
 ## About the lib
 
 * This library provides a simple way to communicate with [Home Assistant Rest API](https://developers.home-assistant.io/docs/api/rest/)
+
+* Works with reverse proxy (http & https) configuration
 
 * This library works with **Java >= 8**, **Maven** and has some dependencies already provided:
   * **lombok** : 1.18.24
